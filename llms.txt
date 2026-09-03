@@ -1,0 +1,12 @@
+# SukuuX Ghana Schools Explorer
+
+> Searchable directory of 10,795 Ghana school records representing 10,503 unique institution IDs across 16 regions and 261 districts.
+
+- Main explorer: https://search.sukuux.com/
+- School directory: https://search.sukuux.com/schools/
+- Regions: https://search.sukuux.com/regions/
+- Districts: https://search.sukuux.com/districts/
+- Methodology: https://search.sukuux.com/methodology/
+- XML sitemap: https://search.sukuux.com/sitemap.xml
+
+Coordinates generally represent approximate towns or localities, not verified school campuses. Phone numbers and other directory fields should be independently confirmed before consequential use.

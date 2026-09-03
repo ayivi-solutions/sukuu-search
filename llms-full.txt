@@ -1,0 +1,17 @@
+# SukuuX Ghana Schools Explorer — data guide
+
+The site presents 10,795 Ghana school directory rows representing 10,503 unique institution IDs, 10,229 populated phone entries and 8,865 approximate coordinates. Point-in-polygon processing assigns 8,863 coordinate records to current districts. The integrated administrative map contains Ghana (ADM0), 16 current regions (ADM1) and 261 districts (ADM2).
+
+Canonical domain: https://search.sukuux.com/
+
+## Stable URL patterns
+- /school/<school-name>-<institution-id>/
+- /region/<region-name>/
+- /district/<district-name>/
+- /schools/page/<number>/
+
+## Boundary provenance
+The baseline is OCHA/HDX Ghana COD-AB. Guan District is supplemented from OpenStreetMap relation 13804589, removed from Hohoe Municipal and assigned to Oti Region.
+
+## Limitations
+Coordinates are usually representative points for a named town, village or locality and should not be treated as exact campus coordinates. The site preserves the source directory region separately from the current coordinate-derived region and district.

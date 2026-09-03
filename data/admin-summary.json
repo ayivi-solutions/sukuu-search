@@ -1,0 +1,114 @@
+{
+  "records": 10795,
+  "mapped": 8865,
+  "inside_country": 8863,
+  "adm2_assigned": 8863,
+  "adm1_assigned": 8863,
+  "regions_with_schools": 16,
+  "districts_with_schools": 255,
+  "region_counts": {
+    "Ahafo": 185,
+    "Ashanti": 1484,
+    "Bono": 476,
+    "Bono East": 243,
+    "Central": 913,
+    "Eastern": 1497,
+    "Greater Accra": 1095,
+    "North East": 63,
+    "Northern": 158,
+    "Oti": 266,
+    "Savannah": 90,
+    "Upper East": 455,
+    "Upper West": 253,
+    "Volta": 685,
+    "Western": 657,
+    "Western North": 343
+  },
+  "top_districts": [
+    [
+      "Bibiani-Anhwiaso-Bekwai Municipal",
+      122
+    ],
+    [
+      "Ablekuma North Municipal",
+      115
+    ],
+    [
+      "Bawku West",
+      110
+    ],
+    [
+      "Ho West",
+      109
+    ],
+    [
+      "Sekyere South",
+      105
+    ],
+    [
+      "Bolgatanga Municipal",
+      102
+    ],
+    [
+      "Akyem Mansa",
+      93
+    ],
+    [
+      "Ketu South",
+      91
+    ],
+    [
+      "Kwahu West",
+      89
+    ],
+    [
+      "Tain",
+      88
+    ],
+    [
+      "Ahanta West Municipal",
+      85
+    ],
+    [
+      "Ashaiman Municipal",
+      82
+    ],
+    [
+      "Kwaebibirem",
+      81
+    ],
+    [
+      "West Akim",
+      81
+    ],
+    [
+      "Korle Klottey Municipal",
+      80
+    ],
+    [
+      "Asunafo North Municipal",
+      80
+    ],
+    [
+      "Ellembelle",
+      79
+    ],
+    [
+      "Asuogyaman",
+      79
+    ],
+    [
+      "Bosomtwe",
+      79
+    ],
+    [
+      "Jaman North",
+      77
+    ]
+  ],
+  "admin_status": {
+    "ADM2_MATCH": 8863,
+    "NO_COORDINATES": 1930,
+    "OUTSIDE_GHANA": 2
+  }
+}
