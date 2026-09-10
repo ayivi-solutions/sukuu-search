@@ -1,0 +1,41 @@
+{
+  "contract_version": "1.0",
+  "required_stages": [
+    "observe_source",
+    "capture_snapshot",
+    "fingerprint_snapshot",
+    "parse_without_loss",
+    "normalize_entity_ids",
+    "map_geography",
+    "validate_temporal_fields",
+    "assign_verification_state",
+    "deduplicate_with_evidence",
+    "generate_static_routes",
+    "generate_sitemap_segment",
+    "emit_build_report"
+  ],
+  "hard_rules": [
+    "Never fabricate a missing authority identifier.",
+    "Never replace an expired status with active without a newer source observation.",
+    "Never infer exact campus/facility coordinates from a town centroid.",
+    "Never merge two entities solely because names are similar.",
+    "Never overwrite prior dated source snapshots; new observations are additive.",
+    "Never publish a regulator logo unless reuse is authorized; plain-text source attribution is sufficient."
+  ],
+  "minimum_provenance": [
+    "source_id",
+    "source_url",
+    "observed_at",
+    "verification_status",
+    "harvest_method"
+  ],
+  "recommended_evidence": [
+    "source_record_id",
+    "published_at",
+    "content_fingerprint",
+    "parser_version",
+    "normalizer_version",
+    "geocode_method",
+    "confidence"
+  ]
+}

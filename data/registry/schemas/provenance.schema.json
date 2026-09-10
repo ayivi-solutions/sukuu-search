@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://search.sukuux.com/data/registry/schemas/provenance.schema.json",
+  "title": "Sukuu Search Provenance Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_id",
+    "observed_at",
+    "verification_status"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_record_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "official_source_observed",
+        "official_snapshot",
+        "institution_supplied",
+        "sukuu_verified",
+        "derived",
+        "unverified"
+      ]
+    },
+    "confidence": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "harvest_method": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "content_fingerprint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

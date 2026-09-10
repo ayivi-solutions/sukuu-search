@@ -1,17 +1,27 @@
-# SukuuX Ghana Schools Explorer — data guide
+# Sukuu Search — Ghana education and national metadata discovery
 
-The site presents 10,795 Ghana school directory rows representing 10,503 unique institution IDs, 10,229 populated phone entries and 8,865 approximate coordinates. Point-in-polygon processing assigns 8,863 coordinate records to current districts. The integrated administrative map contains Ghana (ADM0), 16 current regions (ADM1) and 261 districts (ADM2).
+> Education-first Ghana discovery layer. The deployed school directory contains 10,795 source records representing 10,503 canonical school profiles; national metadata expansion is governed through explicit source, geography and provenance registries.
 
-Canonical domain: https://search.sukuux.com/
+## Live discovery
+- School explorer: https://search.sukuux.com/
+- School directory: https://search.sukuux.com/schools/
+- Regions: https://search.sukuux.com/regions/
+- Districts: https://search.sukuux.com/districts/
 
-## Stable URL patterns
-- /school/<school-name>-<institution-id>/
-- /region/<region-name>/
-- /district/<district-name>/
-- /schools/page/<number>/
+## National metadata foundation
+- Dataset catalogue: https://search.sukuux.com/metadata/
+- Source & authority register: https://search.sukuux.com/metadata/sources/
+- Entity/provenance model: https://search.sukuux.com/metadata/model/
+- Dataset registry JSON: https://search.sukuux.com/data/registry/dataset-registry.json
+- Source registry JSON: https://search.sukuux.com/data/registry/source-registry.json
+- Ghana geography index JSON: https://search.sukuux.com/data/geography/ghana-admin-index.json
+- Entity schema: https://search.sukuux.com/data/registry/schemas/entity.schema.json
 
-## Boundary provenance
-The baseline is OCHA/HDX Ghana COD-AB. Guan District is supplemented from OpenStreetMap relation 13804589, removed from Hohoe Municipal and assigned to Oti Region.
+## Methodology
+- School data methodology: https://search.sukuux.com/methodology/
+- XML sitemap: https://search.sukuux.com/sitemap.xml
 
-## Limitations
-Coordinates are usually representative points for a named town, village or locality and should not be treated as exact campus coordinates. The site preserves the source directory region separately from the current coordinate-derived region and district.
+Coordinates in the school dataset generally represent approximate towns or localities, not verified school campuses. “Ingestion ready” in the national metadata catalogue means the source authority and schema are defined; it does not mean all upstream records are already copied locally. Accreditation, licensing and deadline data must be revalidated against the named official source before consequential use.
+
+## Scope discipline
+Sukuu Search may index non-school public-service metadata only where it materially improves education, learner, parent, school or institutional decisions. Operational jurisdictions are never silently equated with Ghana administrative boundaries. Every externally sourced factual record should carry provenance and observation time.

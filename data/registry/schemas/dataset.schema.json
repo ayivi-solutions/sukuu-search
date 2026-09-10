@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://search.sukuux.com/data/registry/schemas/dataset.schema.json",
+  "title": "Sukuu Search Dataset Registry Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "vertical",
+    "status",
+    "priority",
+    "coverage",
+    "entity_types",
+    "primary_source_ids",
+    "description"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "vertical": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "live",
+        "ingestion_ready",
+        "planned",
+        "paused",
+        "retired"
+      ]
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "coverage": {
+      "type": "string"
+    },
+    "entity_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "primary_source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "local_record_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "canonical_entity_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "last_source_snapshot": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "route": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "data_quality_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

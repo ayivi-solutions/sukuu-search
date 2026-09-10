@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://search.sukuux.com/data/registry/schemas/geography.schema.json",
+  "title": "Sukuu Search Ghana Geography Reference",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "country_code": {
+      "const": "GH"
+    },
+    "region_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "region": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "district_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "district": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "locality": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latitude": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -90,
+      "maximum": 90
+    },
+    "longitude": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -180,
+      "maximum": 180
+    },
+    "coordinate_level": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "campus",
+        "facility",
+        "address",
+        "locality",
+        "town",
+        "district_centroid",
+        "region_centroid",
+        "unknown",
+        null
+      ]
+    },
+    "coordinate_accuracy_m": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "geocode_method": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "digital_address": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

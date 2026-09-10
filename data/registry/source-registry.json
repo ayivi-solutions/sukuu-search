@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-10",
+  "country": "Ghana",
+  "sources": [
+    {
+      "id": "ghana-education-directory",
+      "name": "Ghana Education Directory",
+      "organization": "Ghana Education Directory",
+      "authority_class": "third_party_directory",
+      "jurisdiction": "Ghana",
+      "homepage": "https://ghanaeducationdirectory.com/",
+      "dataset_url": "https://ghanaeducationdirectory.com/",
+      "topics": [
+        "schools"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "snapshot_with_provenance",
+      "last_observed": "2026-09-02",
+      "notes": "Source of the currently deployed school directory records. Not represented as a government accreditation authority."
+    },
+    {
+      "id": "ocha-hdx-gha-cod-ab",
+      "name": "Ghana Common Operational Dataset – Administrative Boundaries",
+      "organization": "OCHA / HDX",
+      "authority_class": "intergovernmental_open_data",
+      "jurisdiction": "Ghana",
+      "homepage": "https://data.humdata.org/",
+      "dataset_url": "https://data.humdata.org/dataset/cod-ab-gha",
+      "topics": [
+        "geography",
+        "regions",
+        "districts"
+      ],
+      "reuse_status": "CC BY-IGO",
+      "ingestion_policy": "local_snapshot",
+      "last_observed": "2026-09-03",
+      "notes": "National administrative-boundary baseline used by the deployed map."
+    },
+    {
+      "id": "openstreetmap-guan",
+      "name": "OpenStreetMap Guan District relation 13804589",
+      "organization": "OpenStreetMap contributors",
+      "authority_class": "open_data",
+      "jurisdiction": "Ghana",
+      "homepage": "https://www.openstreetmap.org/",
+      "dataset_url": "https://www.openstreetmap.org/relation/13804589",
+      "topics": [
+        "geography",
+        "districts"
+      ],
+      "reuse_status": "ODbL",
+      "ingestion_policy": "local_snapshot",
+      "last_observed": "2026-09-03",
+      "notes": "Geometry/provenance supplement for Guan District in the integrated 261-district browser layer. Canonical Sukuu ADM2 code is GH1009, assigned sequentially after Oti Region code GH1008."
+    },
+    {
+      "id": "gtec",
+      "name": "Ghana Tertiary Education Commission",
+      "organization": "Ghana Tertiary Education Commission",
+      "authority_class": "government_regulator",
+      "jurisdiction": "Ghana",
+      "homepage": "https://gtec.edu.gh/",
+      "dataset_url": "https://gtec.edu.gh/explore-institutions/",
+      "topics": [
+        "tertiary",
+        "institutions",
+        "programmes",
+        "accreditation"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "official_snapshot_then_verify",
+      "last_observed": "2026-09-10",
+      "notes": "Statutory accreditation authority for tertiary institutions and programmes. Public GTEC surfaces can expose changing counts; preserve snapshot date and source URL per observation."
+    },
+    {
+      "id": "ctvet",
+      "name": "Commission for Technical and Vocational Education and Training",
+      "organization": "CTVET",
+      "authority_class": "government_regulator",
+      "jurisdiction": "Ghana",
+      "homepage": "https://ctvet.gov.gh/",
+      "dataset_url": "https://ctvet.gov.gh/accredited-institutions/",
+      "topics": [
+        "tvet",
+        "providers",
+        "programmes",
+        "qualifications",
+        "accreditation"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "official_snapshot_then_verify",
+      "last_observed": "2026-09-10",
+      "notes": "Official provider register exposes provider, location, category, accreditation type/dates, programme, NTVETQF level, qualification and accreditation code."
+    },
+    {
+      "id": "nacca",
+      "name": "National Council for Curriculum and Assessment",
+      "organization": "NaCCA",
+      "authority_class": "government_regulator",
+      "jurisdiction": "Ghana",
+      "homepage": "https://nacca.gov.gh/",
+      "dataset_url": "https://nacca.gov.gh/approved-books-registry/",
+      "topics": [
+        "curriculum",
+        "learning_resources",
+        "textbooks",
+        "instructional_materials"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "official_snapshot_then_verify",
+      "last_observed": "2026-09-10",
+      "notes": "Official registry and publications for approved pre-tertiary instructional resources. Approval lists are expressly subject to regular updates."
+    },
+    {
+      "id": "ghana-scholarships-authority",
+      "name": "Ghana Scholarships Authority",
+      "organization": "Ghana Scholarships Authority",
+      "authority_class": "government_authority",
+      "jurisdiction": "Ghana",
+      "homepage": "https://scholarships.gov.gh/",
+      "dataset_url": "https://scholarships.gov.gh/opportunities",
+      "topics": [
+        "scholarships",
+        "opportunities",
+        "funding"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "official_notice_index",
+      "last_observed": "2026-09-10",
+      "notes": "Official scholarship opportunities and public notices. Deadline/status must be rechecked against the source before consequential use."
+    },
+    {
+      "id": "ghana-library-authority",
+      "name": "Ghana Library Authority",
+      "organization": "Ghana Library Authority",
+      "authority_class": "government_service",
+      "jurisdiction": "Ghana",
+      "homepage": "https://www.library.gov.gh/",
+      "dataset_url": "https://www.library.gov.gh/public-libraries",
+      "topics": [
+        "libraries",
+        "learning_services"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "official_directory_snapshot",
+      "last_observed": "2026-09-10",
+      "notes": "Public library network and branch-discovery source."
+    },
+    {
+      "id": "hefra",
+      "name": "Health Facilities Regulatory Agency",
+      "organization": "HeFRA",
+      "authority_class": "government_regulator",
+      "jurisdiction": "Ghana",
+      "homepage": "https://hefra.gov.gh/",
+      "dataset_url": "https://hefra.gov.gh/licensed-facilities/",
+      "topics": [
+        "health_facilities",
+        "school_support_services"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "official_directory_snapshot",
+      "last_observed": "2026-09-10",
+      "notes": "Candidate source for licensed health facilities relevant to school safety and proximity intelligence."
+    },
+    {
+      "id": "national-ambulance-service",
+      "name": "National Ambulance Service Ghana",
+      "organization": "National Ambulance Service",
+      "authority_class": "government_emergency_service",
+      "jurisdiction": "Ghana",
+      "homepage": "https://nas.gov.gh/",
+      "dataset_url": "https://nas.gov.gh/regional-offices.php",
+      "topics": [
+        "ambulance",
+        "emergency_services",
+        "school_safety"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "official_directory_snapshot",
+      "last_observed": "2026-09-10",
+      "notes": "Official regional/station directory; public page reports nationwide station coverage."
+    },
+    {
+      "id": "ghana-police-service",
+      "name": "Ghana Police Service",
+      "organization": "Ghana Police Service",
+      "authority_class": "government_security_service",
+      "jurisdiction": "Ghana",
+      "homepage": "https://police.gov.gh/",
+      "dataset_url": "https://police.gov.gh/en/index.php/police_stations/",
+      "topics": [
+        "police",
+        "safety",
+        "school_safety"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "official_directory_snapshot",
+      "last_observed": "2026-09-10",
+      "notes": "Candidate source for police region/division/district/station metadata. Police operational regions are not identical to Ghana administrative regions and must be modelled separately."
+    },
+    {
+      "id": "bank-of-ghana",
+      "name": "Bank of Ghana",
+      "organization": "Bank of Ghana",
+      "authority_class": "central_bank_regulator",
+      "jurisdiction": "Ghana",
+      "homepage": "https://www.bog.gov.gh/",
+      "dataset_url": "https://www.bog.gov.gh/supervision-regulation/registered-institutions/list-of-licensed-psps/",
+      "topics": [
+        "financial_services",
+        "payments",
+        "regulated_entities"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "official_register_snapshot",
+      "last_observed": "2026-09-10",
+      "notes": "Candidate source for regulated financial/payment entities where education-payment or proximity use cases justify inclusion."
+    },
+    {
+      "id": "ghana-statistical-service",
+      "name": "Ghana Statistical Service",
+      "organization": "Ghana Statistical Service",
+      "authority_class": "national_statistics_office",
+      "jurisdiction": "Ghana",
+      "homepage": "https://statsghana.gov.gh/",
+      "dataset_url": "https://statsbank.statsghana.gov.gh/pxweb/en/PHC%202021%20StatsBank/PHC%202021%20StatsBank__Education%20and%20Literacy/",
+      "topics": [
+        "demographics",
+        "census",
+        "education_indicators"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "official_statistical_dataset",
+      "last_observed": "2026-09-10",
+      "notes": "Candidate source for district/locality demographic and education indicators. Statistical geography must retain vintage and boundary definitions."
+    },
+    {
+      "id": "ghana-post-gps",
+      "name": "GhanaPostGPS",
+      "organization": "Ghana Post / National Digital Addressing System",
+      "authority_class": "government_addressing_service",
+      "jurisdiction": "Ghana",
+      "homepage": "https://nas.ghanapostgps.com/",
+      "dataset_url": "https://nas.ghanapostgps.com/",
+      "topics": [
+        "digital_address",
+        "geocoding",
+        "location"
+      ],
+      "reuse_status": "review_required",
+      "ingestion_policy": "reference_or_authorized_integration",
+      "last_observed": "2026-09-10",
+      "notes": "Potential national digital-address identifier. Do not bulk-copy or infer addresses without an authorized data source or integration basis."
+    }
+  ]
+}

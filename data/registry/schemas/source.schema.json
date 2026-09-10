@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://search.sukuux.com/data/registry/schemas/source.schema.json",
+  "title": "Sukuu Search Source Registry Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "organization",
+    "authority_class",
+    "jurisdiction",
+    "homepage",
+    "topics",
+    "ingestion_policy"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "organization": {
+      "type": "string"
+    },
+    "authority_class": {
+      "type": "string"
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri"
+    },
+    "dataset_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reuse_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ingestion_policy": {
+      "type": "string"
+    },
+    "last_observed": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

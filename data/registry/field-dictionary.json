@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-10",
+  "principles": [
+    "Stable IDs are never derived solely from display names.",
+    "Authority-specific identifiers are retained alongside Sukuu IDs.",
+    "Geography stores both administrative IDs and human-readable names.",
+    "Operational geographies such as police regions remain separate dimensions.",
+    "Every externally sourced factual field must be traceable to at least one provenance event.",
+    "Expiry/deadline data is time-sensitive and must not be silently promoted to current status after its last verification date."
+  ],
+  "core_fields": [
+    {
+      "field": "id",
+      "meaning": "Stable Sukuu entity identifier",
+      "required": true
+    },
+    {
+      "field": "entity_type",
+      "meaning": "Normalized entity class",
+      "required": true
+    },
+    {
+      "field": "name",
+      "meaning": "Current public display name",
+      "required": true
+    },
+    {
+      "field": "record_status",
+      "meaning": "Lifecycle state of the entity/record, not source trust",
+      "required": true
+    },
+    {
+      "field": "identifiers[]",
+      "meaning": "Authority-issued or source-system identifiers",
+      "required": false
+    },
+    {
+      "field": "geography.region_id / district_id",
+      "meaning": "Canonical Ghana administrative references",
+      "required": false
+    },
+    {
+      "field": "geography.coordinate_level",
+      "meaning": "What the coordinate actually represents",
+      "required": false
+    },
+    {
+      "field": "provenance[]",
+      "meaning": "Source, observation date, verification state and method",
+      "required": true
+    }
+  ]
+}

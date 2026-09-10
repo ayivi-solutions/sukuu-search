@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-10",
+  "catalogue_name": "Sukuu Search Ghana National Metadata Catalogue",
+  "scope_statement": "Education-first national discovery. Non-education datasets are included only where they materially enrich education, learner, parent, school or institutional decisions.",
+  "datasets": [
+    {
+      "id": "ghana-schools",
+      "name": "Ghana Schools Directory",
+      "vertical": "schools",
+      "status": "live",
+      "priority": 0,
+      "coverage": "National",
+      "entity_types": [
+        "school"
+      ],
+      "primary_source_ids": [
+        "ghana-education-directory"
+      ],
+      "geography": "16 regions / 261 districts",
+      "local_record_count": 10795,
+      "canonical_entity_count": 10503,
+      "last_source_snapshot": "2026-09-02",
+      "route": "/",
+      "description": "Deployed school discovery surface with searchable directory records, canonical school pages and approximate locality coordinates."
+    },
+    {
+      "id": "ghana-administrative-geography",
+      "name": "Ghana Administrative Geography",
+      "vertical": "geography",
+      "status": "live",
+      "priority": 0,
+      "coverage": "National",
+      "entity_types": [
+        "region",
+        "district"
+      ],
+      "primary_source_ids": [
+        "ocha-hdx-gha-cod-ab",
+        "openstreetmap-guan"
+      ],
+      "local_record_count": 277,
+      "last_source_snapshot": "2026-09-03",
+      "route": "/metadata/model/",
+      "description": "Canonical shared geography layer: Ghana, 16 regions and the integrated 261-district ADM2 layer."
+    },
+    {
+      "id": "ghana-tertiary-institutions",
+      "name": "Accredited Tertiary Institutions",
+      "vertical": "tertiary",
+      "status": "ingestion_ready",
+      "priority": 1,
+      "coverage": "National",
+      "entity_types": [
+        "tertiary_institution"
+      ],
+      "primary_source_ids": [
+        "gtec"
+      ],
+      "route": "/metadata/?q=tertiary",
+      "description": "Institution-level tertiary accreditation metadata. Ingest from a dated GTEC register snapshot before public entity pages are activated.",
+      "data_quality_note": "GTEC public surfaces observed on 10 Sep 2026 expose differing aggregate institution counts; the register snapshot, not a headline count, will be authoritative."
+    },
+    {
+      "id": "ghana-tertiary-programmes",
+      "name": "Accredited Tertiary Programmes",
+      "vertical": "tertiary",
+      "status": "ingestion_ready",
+      "priority": 1,
+      "coverage": "National",
+      "entity_types": [
+        "programme"
+      ],
+      "primary_source_ids": [
+        "gtec"
+      ],
+      "route": "/metadata/?q=programme",
+      "description": "Programme-to-institution accreditation metadata for programme-level discovery."
+    },
+    {
+      "id": "ghana-tvet-providers-programmes",
+      "name": "Accredited TVET Providers & Programmes",
+      "vertical": "tvet",
+      "status": "ingestion_ready",
+      "priority": 1,
+      "coverage": "National",
+      "entity_types": [
+        "tvet_provider",
+        "programme",
+        "qualification"
+      ],
+      "primary_source_ids": [
+        "ctvet"
+      ],
+      "route": "/metadata/?q=tvet",
+      "description": "Provider, programme, NTVETQF level, qualification and accreditation metadata from CTVET."
+    },
+    {
+      "id": "ghana-approved-learning-resources",
+      "name": "Approved Learning Resources",
+      "vertical": "learning_resources",
+      "status": "ingestion_ready",
+      "priority": 1,
+      "coverage": "National",
+      "entity_types": [
+        "learning_resource"
+      ],
+      "primary_source_ids": [
+        "nacca"
+      ],
+      "route": "/metadata/?q=learning",
+      "description": "NaCCA-approved textbooks and supplementary instructional resources linked to subject, grade/level, publisher and approval metadata.",
+      "observations": [
+        {
+          "as_of": "2024-12-31",
+          "metric": "approved_textbooks_summary",
+          "value": 691,
+          "source_note": "Sum of the subject totals in NaCCA December 2024 approved-resource publication."
+        },
+        {
+          "as_of": "2024-12-31",
+          "metric": "approved_supplementary_materials_summary",
+          "value": 881,
+          "source_note": "Sum of NaCCA supplementary category totals in the December 2024 publication."
+        }
+      ]
+    },
+    {
+      "id": "ghana-scholarship-opportunities",
+      "name": "Scholarships & Education Opportunities",
+      "vertical": "opportunities",
+      "status": "ingestion_ready",
+      "priority": 1,
+      "coverage": "National / international opportunities for Ghanaians",
+      "entity_types": [
+        "scholarship",
+        "opportunity"
+      ],
+      "primary_source_ids": [
+        "ghana-scholarships-authority"
+      ],
+      "route": "/metadata/?q=scholarship",
+      "description": "Time-sensitive official scholarship notices, eligibility and deadlines.",
+      "observations": [
+        {
+          "as_of": "2026-09-10",
+          "metric": "public_notices_on_official_opportunities_page",
+          "value": 13
+        },
+        {
+          "as_of": "2026-09-10",
+          "metric": "open_opportunities_on_official_opportunities_page",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "ghana-public-libraries",
+      "name": "Public Libraries",
+      "vertical": "learning_services",
+      "status": "ingestion_ready",
+      "priority": 2,
+      "coverage": "16 regions",
+      "entity_types": [
+        "library"
+      ],
+      "primary_source_ids": [
+        "ghana-library-authority"
+      ],
+      "route": "/metadata/?q=library",
+      "description": "Branch locations and learning-service metadata for proximity to learners and schools.",
+      "observations": [
+        {
+          "as_of": "2026-09-10",
+          "metric": "public_library_network",
+          "value": "115+"
+        }
+      ]
+    },
+    {
+      "id": "ghana-education-administration",
+      "name": "Education Administration Offices",
+      "vertical": "education_services",
+      "status": "planned",
+      "priority": 2,
+      "coverage": "National",
+      "entity_types": [
+        "education_office"
+      ],
+      "primary_source_ids": [],
+      "route": "/metadata/?q=administration",
+      "description": "Regional and district education administration metadata, contacts and jurisdictional relationships."
+    },
+    {
+      "id": "ghana-school-health-support",
+      "name": "Licensed Health Facilities Near Schools",
+      "vertical": "support_services",
+      "status": "planned",
+      "priority": 3,
+      "coverage": "National",
+      "entity_types": [
+        "health_facility"
+      ],
+      "primary_source_ids": [
+        "hefra"
+      ],
+      "route": "/metadata/?q=health",
+      "description": "Education-contextual proximity layer for licensed health facilities; not a general health directory."
+    },
+    {
+      "id": "ghana-school-emergency-response",
+      "name": "Ambulance & Emergency Response Near Schools",
+      "vertical": "support_services",
+      "status": "planned",
+      "priority": 3,
+      "coverage": "16 regions",
+      "entity_types": [
+        "ambulance_station"
+      ],
+      "primary_source_ids": [
+        "national-ambulance-service"
+      ],
+      "route": "/metadata/?q=ambulance",
+      "description": "Education-contextual emergency-response proximity layer.",
+      "observations": [
+        {
+          "as_of": "2026-09-10",
+          "metric": "stations_and_centres_reported",
+          "value": 411
+        }
+      ]
+    },
+    {
+      "id": "ghana-school-safety-services",
+      "name": "Police & Safety Services Near Schools",
+      "vertical": "support_services",
+      "status": "planned",
+      "priority": 3,
+      "coverage": "National",
+      "entity_types": [
+        "police_station"
+      ],
+      "primary_source_ids": [
+        "ghana-police-service"
+      ],
+      "route": "/metadata/?q=police",
+      "description": "Education-contextual safety-service proximity layer; police operational hierarchies remain separate from MMDA geography."
+    },
+    {
+      "id": "ghana-education-demographics",
+      "name": "Education & Demographic Indicators",
+      "vertical": "statistics",
+      "status": "planned",
+      "priority": 3,
+      "coverage": "National / subnational",
+      "entity_types": [
+        "indicator"
+      ],
+      "primary_source_ids": [
+        "ghana-statistical-service"
+      ],
+      "route": "/metadata/?q=demographic",
+      "description": "Population, school-age, literacy and related indicators joined only when statistical geography and vintage are explicit."
+    },
+    {
+      "id": "ghana-digital-address-reference",
+      "name": "Digital Address Reference",
+      "vertical": "geography",
+      "status": "planned",
+      "priority": 4,
+      "coverage": "National",
+      "entity_types": [
+        "digital_address"
+      ],
+      "primary_source_ids": [
+        "ghana-post-gps"
+      ],
+      "route": "/metadata/?q=address",
+      "description": "Potential GhanaPostGPS reference layer for verified entity locations, subject to authorized integration and provenance controls."
+    },
+    {
+      "id": "ghana-education-payment-services",
+      "name": "Regulated Education-Payment Services",
+      "vertical": "support_services",
+      "status": "planned",
+      "priority": 4,
+      "coverage": "National",
+      "entity_types": [
+        "financial_institution"
+      ],
+      "primary_source_ids": [
+        "bank-of-ghana"
+      ],
+      "route": "/metadata/?q=payment",
+      "description": "Narrowly scoped regulated financial-service metadata where it supports school fees, education payments or proximity use cases."
+    }
+  ]
+}

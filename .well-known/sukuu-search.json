@@ -1,0 +1,12 @@
+{
+  "name": "Sukuu Search Ghana Metadata",
+  "version": "1.1.1",
+  "base_url": "https://search.sukuux.com",
+  "updated_at": "2026-09-10",
+  "catalogue": "https://search.sukuux.com/metadata/",
+  "dataset_registry": "https://search.sukuux.com/data/registry/dataset-registry.json",
+  "source_registry": "https://search.sukuux.com/data/registry/source-registry.json",
+  "geography_index": "https://search.sukuux.com/data/geography/ghana-admin-index.json",
+  "entity_schema": "https://search.sukuux.com/data/registry/schemas/entity.schema.json",
+  "sitemap": "https://search.sukuux.com/sitemap.xml"
+}
