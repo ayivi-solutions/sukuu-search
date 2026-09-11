@@ -1,0 +1,51 @@
+{
+  "release": "1.3.1",
+  "release_type": "post-production acceptance patch",
+  "date": "2026-09-11",
+  "baseline": {
+    "release": "1.3.0",
+    "commit": "cfbfb5a2170a9e02aa5433a6716bb3438c58db9b"
+  },
+  "audit_findings": {
+    "contact_scope_misclassification": "central admissions/support contacts could be presented as generic verified contacts on tertiary cards and detail pages",
+    "gtec_total": 316,
+    "gtec_matched_any": 171,
+    "gtec_entity_direct": 39,
+    "gtec_central_admissions_support": 132,
+    "ctvet_total": 317,
+    "ctvet_entity_direct": 48,
+    "gtec_direct_coverage_percent": 12.3,
+    "gtec_central_support_percent": 41.8,
+    "ctvet_direct_coverage_percent": 15.1,
+    "history_state": "v1.3.0 used replaceState without full popstate restoration",
+    "view_parity": "grid/list control existed on National Discovery but not all national browsers",
+    "machine_readable_version": "well-known descriptor still reported 1.2.0"
+  },
+  "fixes": [
+    "separate institution-direct verified contacts from official central admissions/support",
+    "never count or label central support as institution-direct",
+    "add direct/support-aware contact filters",
+    "add recently verified sorting",
+    "add grid/list controls to tertiary, TVET and programmes",
+    "restore URL state through browser Back/Forward navigation",
+    "improve mobile tap targets and small-screen toolbar resilience",
+    "clarify detail-page central-support fallback with an explicit not-institution-direct warning",
+    "retain regulator links as secondary provenance",
+    "update machine-readable release descriptor to 1.3.1"
+  ],
+  "protected_estate": {
+    "school_region_district_files": 10781,
+    "baseline_sha256": "2b574001a7f2fccb61c5bf2db3368c787f0eae22ba64bba9aca2f444d42e43c1",
+    "intentionally_modified": false
+  },
+  "known_data_gap": {
+    "gtec_without_entity_direct_contact": 277,
+    "ctvet_without_entity_direct_contact": 269,
+    "policy": "withhold rather than guess; missing verified contacts require additional official-source enrichment and are not fabricated by this patch"
+  },
+  "validation": {
+    "javascript_syntax": "PASS",
+    "detail_enhancer_javascript_syntax": "PASS",
+    "protected_school_estate": "no files in protected school/region/district estate are part of this patch"
+  }
+}
