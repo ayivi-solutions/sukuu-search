@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "policy_name": "Sukuu Search operational contact enrichment",
+  "effective_release": "1.3.0",
+  "principles": [
+    "Regulator records establish accreditation or licensing state; they are evidence, not the primary discovery destination.",
+    "Operational contacts are enriched from institution-owned official channels or appropriate official public service directories.",
+    "Contact assignment uses exact normalized aliases only; fuzzy matching is prohibited.",
+    "WhatsApp is exposed only when the source explicitly identifies a number as WhatsApp-capable.",
+    "Suspicious phone strings and invalid email-like strings are withheld rather than repaired by assumption.",
+    "Every contact enrichment retains source identity, observation date and verification class.",
+    "External regulator links are presented only in secondary provenance views; Sukuu Search keeps users on the local entity record for normal discovery workflows."
+  ],
+  "source_precedence": [
+    "institution_official",
+    "government_service_directory",
+    "government_regulator_contact",
+    "other_verified_official_public_source"
+  ],
+  "user_actions": [
+    "call",
+    "whatsapp_when_explicit",
+    "email",
+    "official_website",
+    "admissions_or_application",
+    "directions_when_address_available"
+  ]
+}

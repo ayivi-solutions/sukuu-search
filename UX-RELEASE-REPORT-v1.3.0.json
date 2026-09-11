@@ -1,0 +1,69 @@
+{
+  "release": "1.3.0",
+  "release_type": "UX and verified operational contact enrichment",
+  "generated_at": "2026-09-11T06:41:59.890Z",
+  "base_release": "v1.2.0",
+  "base_commit": "2adc424e03d219bc07c85cc67d57986cc6674e16",
+  "ux": {
+    "mobile_first": true,
+    "device_aware_navigation": true,
+    "animated_state_transitions": true,
+    "url_state": true,
+    "search": true,
+    "sorting": true,
+    "faceted_filters": true,
+    "pagination": true,
+    "grid_list_view": true,
+    "contact_filters": true,
+    "progressive_provenance": true,
+    "compact_search_indexes": {
+      "source": 16351,
+      "compact": 16351,
+      "programmes": 5215,
+      "compact_bytes": 3770792,
+      "programme_bytes": 1091858
+    }
+  },
+  "contacts": {
+    "source_records": 164,
+    "alias_collisions": 0,
+    "gtec": {
+      "total": 316,
+      "matched": 171,
+      "direct": 39,
+      "central_admissions_support": 132,
+      "phone": 171,
+      "email": 169,
+      "website": 171,
+      "admissions_or_apply": 163,
+      "whatsapp": 8
+    },
+    "ctvet": {
+      "total": 317,
+      "matched": 48,
+      "direct": 48,
+      "central_admissions_support": 0,
+      "phone": 48,
+      "email": 41,
+      "website": 0,
+      "admissions_or_apply": 0,
+      "whatsapp": 0
+    },
+    "policy": "/data/contacts/contact-enrichment-policy.json"
+  },
+  "detail_pages": {
+    "tertiary": 316,
+    "tvet": 317,
+    "programme": 5215,
+    "modified": 5848
+  },
+  "regression": {
+    "protected_files": 10781,
+    "protected_sha256": "2b574001a7f2fccb61c5bf2db3368c787f0eae22ba64bba9aca2f444d42e43c1",
+    "school_region_district_unchanged": true
+  },
+  "notes": [
+    "Regulatory source links are retained as secondary provenance, not primary user actions.",
+    "Verified contacts are never fabricated; unmatched entities remain explicitly unverified until a suitable official contact source is added."
+  ]
+}

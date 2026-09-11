@@ -1,0 +1,5194 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-11",
+  "purpose": "Verified operational contact enrichment for Sukuu Search entity discovery pages. Accreditation authority data remains separate from operational contact sources.",
+  "matching_policy": "Exact normalized alias match only. No fuzzy match is allowed for contact assignment.",
+  "quality_policy": {
+    "no_invented_contacts": true,
+    "whatsapp_only_when_source_explicit": true,
+    "suspicious_phone_strings_withheld": true,
+    "invalid_email_like_strings_withheld": true,
+    "external_regulator_links_secondary_provenance_only": true
+  },
+  "record_count": 164,
+  "alias_collision_count": 0,
+  "alias_collisions": [],
+  "records": [
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Academic City University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233594030308",
+          "tel": "+233594030308"
+        },
+        {
+          "display": "+233531012236",
+          "tel": "+233531012236"
+        }
+      ],
+      "emails": [
+        "info@acity.edu.gh",
+        "admissions@acity.edu.gh"
+      ],
+      "website": "https://acity.edu.gh/",
+      "apply_url": "https://acity.edu.gh/start-your-application/",
+      "address": "Property #279-302 Agbogba, Haatso, Accra",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://acity.edu.gh/contact-connect/",
+          "name": "Academic City University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Ashesi University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233302974980",
+          "tel": "+233302974980"
+        },
+        {
+          "display": "+233501318961",
+          "tel": "+233501318961"
+        },
+        {
+          "display": "+233204374374",
+          "tel": "+233204374374"
+        },
+        {
+          "display": "+233501319264",
+          "tel": "+233501319264"
+        }
+      ],
+      "emails": [
+        "info@ashesi.edu.gh",
+        "admissions@ashesi.edu.gh"
+      ],
+      "website": "https://ashesi.edu.gh/",
+      "apply_url": null,
+      "address": "1 University Avenue, Berekuso",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://ashesi.edu.gh/contact-us/",
+          "name": "Ashesi University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Central University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233303318580",
+          "tel": "+233303318580"
+        },
+        {
+          "display": "+233307020540",
+          "tel": "+233307020540"
+        },
+        {
+          "display": "+233555095090",
+          "tel": "+233555095090"
+        },
+        {
+          "display": "+233555101093",
+          "tel": "+233555101093"
+        }
+      ],
+      "emails": [
+        "info@central.edu.gh",
+        "enquiry.admissions@central.edu.gh",
+        "admissions@central.edu.gh"
+      ],
+      "website": "https://central.edu.gh/",
+      "apply_url": null,
+      "address": "Miotso, Greater Accra",
+      "whatsapp": [
+        "+233555101093",
+        "+233555095090"
+      ],
+      "sources": [
+        {
+          "url": "https://central.edu.gh/admission",
+          "name": "Central University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Valley View University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233307051149",
+          "tel": "+233307051149"
+        },
+        {
+          "display": "+233307010260",
+          "tel": "+233307010260"
+        }
+      ],
+      "emails": [
+        "info@vvu.edu.gh",
+        "admissions@vvu.edu.gh"
+      ],
+      "website": "https://vvu.edu.gh/",
+      "apply_url": "https://admissions.vvu.edu.gh/admissions/website",
+      "address": "Oyibi, Greater Accra",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://vvu.edu.gh/contact_us.php",
+          "name": "Valley View University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Pentecost University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233207314652",
+          "tel": "+233207314652"
+        },
+        {
+          "display": "+233302417057",
+          "tel": "+233302417057"
+        },
+        {
+          "display": "+233302417058",
+          "tel": "+233302417058"
+        }
+      ],
+      "emails": [
+        "info@pentvars.edu.gh"
+      ],
+      "website": "https://pentvars.edu.gh/",
+      "apply_url": "https://pentvars.edu.gh/admissions-procedure/",
+      "address": "P.O. Box KN 1739, Kaneshie, Accra",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://pentvars.edu.gh/helplines/",
+          "name": "Pentecost University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Presbyterian University",
+        "Presbyterian University Ghana"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233202277202",
+          "tel": "+233202277202"
+        },
+        {
+          "display": "+233202277209",
+          "tel": "+233202277209"
+        },
+        {
+          "display": "+233202277210",
+          "tel": "+233202277210"
+        }
+      ],
+      "emails": [
+        "info@presbyuniversity.edu.gh",
+        "admission@presbyuniversity.edu.gh"
+      ],
+      "website": "https://www.presbyuniversity.edu.gh/",
+      "apply_url": null,
+      "address": "P.O. Box 59, Abetifi-Kwahu",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://www.presbyuniversity.edu.gh/site/registrars-office/",
+          "name": "Presbyterian University Ghana",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "All Nations University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233201742690",
+          "tel": "+233201742690"
+        },
+        {
+          "display": "+233501570350",
+          "tel": "+233501570350"
+        },
+        {
+          "display": "+233201600855",
+          "tel": "+233201600855"
+        }
+      ],
+      "emails": [
+        "registrar@anu.edu.gh",
+        "hoppong@anu.edu.gh"
+      ],
+      "website": "https://anu.edu.gh/",
+      "apply_url": "https://anu.edu.gh/apply-to-anu",
+      "address": "Koforidua, Eastern Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://www.anu.edu.gh/registrar",
+          "name": "All Nations University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Ensign Global University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233245762229",
+          "tel": "+233245762229"
+        }
+      ],
+      "emails": [
+        "info@ensign.edu.gh",
+        "mercy.obasi@ensign.edu.gh"
+      ],
+      "website": "https://ensign.edu.gh/",
+      "apply_url": "https://ensign.edu.gh/how-to-apply/",
+      "address": "Kpong, Tema-Akosombo Highway",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://ensign.edu.gh/contact-directory/",
+          "name": "Ensign Global University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "KAAF University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233207755313",
+          "tel": "+233207755313"
+        },
+        {
+          "display": "+233201121353",
+          "tel": "+233201121353"
+        },
+        {
+          "display": "+233200203959",
+          "tel": "+233200203959"
+        }
+      ],
+      "emails": [
+        "info@kaafuni.edu.gh",
+        "admissions@kaafuni.edu.gh"
+      ],
+      "website": "https://www.kaafuni.edu.gh/",
+      "apply_url": "https://www.kaafuni.edu.gh/admissions/portal",
+      "address": "Fetteh Kakraba; Darkuman; East Legon",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://www.kaafuni.edu.gh/contact",
+          "name": "KAAF University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "KNUTSFORD University",
+        "Knutsford University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233244372072",
+          "tel": "+233244372072"
+        },
+        {
+          "display": "+233269604253",
+          "tel": "+233269604253"
+        }
+      ],
+      "emails": [
+        "info@knutsford.edu.gh",
+        "registrar@knutsford.edu.gh",
+        "admissions@knutsford.edu.gh"
+      ],
+      "website": "https://knutsford.edu.gh/",
+      "apply_url": "https://admissions.knutsford.edu.gh/",
+      "address": "Bamako Road, East Legon, Accra · GA-378-8312",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://knutsford.edu.gh/contact-us/",
+          "name": "Knutsford University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Garden City University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233596917214",
+          "tel": "+233596917214"
+        }
+      ],
+      "emails": [
+        "info@gcuc.edu.gh",
+        "admissions@gcuc.edu.gh"
+      ],
+      "website": "https://www.gcu.edu.gh/",
+      "apply_url": null,
+      "address": "Kumasi, Ashanti Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://www.gcu.edu.gh/admissions/international-applicants",
+          "name": "Garden City University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Trinity Theological Seminary"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233302955569",
+          "tel": "+233302955569"
+        },
+        {
+          "display": "+233303974650",
+          "tel": "+233303974650"
+        }
+      ],
+      "emails": [
+        "info@trinity.edu.gh",
+        "support.mis.admin@trinity.edu.gh"
+      ],
+      "website": "https://www.trinity.edu.gh/",
+      "apply_url": "https://mis.trinity.edu.gh/",
+      "address": "No. 7 Trinity Road, East Legon, Accra",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://www.trinity.edu.gh/index.php",
+          "name": "Trinity Theological Seminary",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University of Gold Coast"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233263888555",
+          "tel": "+233263888555"
+        }
+      ],
+      "emails": [
+        "admissions@ugc.edu.gh"
+      ],
+      "website": "https://ugc.edu.gh/",
+      "apply_url": "https://ugc.edu.gh/apply-now/",
+      "address": "19 Tumeric Street, Accra",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://admissions.ugc.edu.gh/",
+          "name": "University of Gold Coast",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Christian Service University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233322028781",
+          "tel": "+233322028781"
+        },
+        {
+          "display": "+233501500300",
+          "tel": "+233501500300"
+        },
+        {
+          "display": "+233501500302",
+          "tel": "+233501500302"
+        }
+      ],
+      "emails": [
+        "info@csuc.edu.gh",
+        "admissions@csuc.edu.gh"
+      ],
+      "website": "https://www.csuc.edu.gh/",
+      "apply_url": null,
+      "address": "Odeneho Kwadaso, Kumasi",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://www.csuc.edu.gh/new_about/",
+          "name": "Christian Service University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Methodist University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233549967386",
+          "tel": "+233549967386"
+        },
+        {
+          "display": "+233558309059",
+          "tel": "+233558309059"
+        }
+      ],
+      "emails": [
+        "info@mug.edu.gh",
+        "admissions@mug.edu.gh"
+      ],
+      "website": "https://mug.edu.gh/",
+      "apply_url": "https://mug.edu.gh/application-forms/",
+      "address": "P.O. Box DC 940, Dansoman, Accra · GA-504-7525",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://mug.edu.gh/",
+          "name": "Methodist University Ghana",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Kwame Nkrumah University of Science and Technology",
+        "KNUST"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233322499897",
+          "tel": "+233322499897"
+        },
+        {
+          "display": "+233240130946",
+          "tel": "+233240130946"
+        },
+        {
+          "display": "+233500482807",
+          "tel": "+233500482807"
+        }
+      ],
+      "emails": [
+        "registrar@knust.edu.gh",
+        "admissions@knust.edu.gh"
+      ],
+      "website": "https://www.knust.edu.gh/",
+      "apply_url": null,
+      "address": "Kumasi, Ashanti Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://www.knust.edu.gh/about/contacts",
+          "name": "KNUST",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Ghana Communication Technology University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233303940305",
+          "tel": "+233303940305"
+        },
+        {
+          "display": "+233501579732",
+          "tel": "+233501579732"
+        }
+      ],
+      "emails": [
+        "info@gctu.edu.gh",
+        "admissions@gctu.edu.gh"
+      ],
+      "website": "https://site.gctu.edu.gh/",
+      "apply_url": "https://admissions.gctu.edu.gh/",
+      "address": "Tesano, Accra",
+      "whatsapp": [
+        "+233501579732"
+      ],
+      "sources": [
+        {
+          "url": "https://site.gctu.edu.gh/contact-us/",
+          "name": "Ghana Communication Technology University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Ghana Institute of Management and Public Administration"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233302401681",
+          "tel": "+233302401681"
+        },
+        {
+          "display": "+233302401682",
+          "tel": "+233302401682"
+        },
+        {
+          "display": "+233302401683",
+          "tel": "+233302401683"
+        },
+        {
+          "display": "+233332095432",
+          "tel": "+233332095432"
+        }
+      ],
+      "emails": [
+        "admissions@gimpa.edu.gh"
+      ],
+      "website": "https://gimpa.edu.gh/",
+      "apply_url": "https://applyv1.gimpa.edu.gh/",
+      "address": "Greenhill, Accra",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://applyv1.gimpa.edu.gh/",
+          "name": "GIMPA",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "C. K. Tedam University of Technology and Applied Sciences",
+        "C.K. Tedam University of Technology and Applied Sciences"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233372095456",
+          "tel": "+233372095456"
+        },
+        {
+          "display": "+233382097376",
+          "tel": "+233382097376"
+        }
+      ],
+      "emails": [],
+      "website": "https://www.cktutas.edu.gh/",
+      "apply_url": "https://admissions.cktutas.edu.gh/",
+      "address": "Navrongo, Upper East Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://utas.edu.gh/buy-forms/",
+          "name": "C.K. Tedam University of Technology and Applied Sciences",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University for Development Studies"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233372093697",
+          "tel": "+233372093697"
+        }
+      ],
+      "emails": [
+        "registrar@uds.edu.gh",
+        "admissions2022@uds.edu.gh",
+        "admissions_international@uds.edu.gh"
+      ],
+      "website": "https://www.uds.edu.gh/",
+      "apply_url": "https://admissions.uds.edu.gh/",
+      "address": "Tamale, Northern Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://www.uds.edu.gh/admissions/application-procedure",
+          "name": "University for Development Studies",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Simon Diedong Dombo University of Business and Integrated Development Studies",
+        "S. D. Dombo University of Business and Integrated Development Studies"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233392097256",
+          "tel": "+233392097256"
+        },
+        {
+          "display": "+233501996222",
+          "tel": "+233501996222"
+        }
+      ],
+      "emails": [
+        "admissions@ubids.edu.gh",
+        "missupport@ubids.edu.gh",
+        "itsupport@ubids.edu.gh"
+      ],
+      "website": "https://ubids.edu.gh/",
+      "apply_url": "https://umis.ubids.edu.gh/admissionportal/",
+      "address": "Wa, Upper West Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://ubids.edu.gh/academics/academic-affairs",
+          "name": "SD Dombo University of Business and Integrated Development Studies",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University of Education, Winneba"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233209349037",
+          "tel": "+233209349037"
+        },
+        {
+          "display": "+233505195241",
+          "tel": "+233505195241"
+        }
+      ],
+      "emails": [
+        "admissions@uew.edu.gh"
+      ],
+      "website": "https://www.uew.edu.gh/",
+      "apply_url": "https://www.uew.edu.gh/admissions/apply-online",
+      "address": "Winneba, Central Region",
+      "whatsapp": [
+        "+233209349037",
+        "+233505195241"
+      ],
+      "sources": [
+        {
+          "url": "https://www.uew.edu.gh/index.php/admissions/apply/admission-contact",
+          "name": "University of Education, Winneba",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University of Energy and Natural Resources"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233352290366",
+          "tel": "+233352290366"
+        },
+        {
+          "display": "+233553581475",
+          "tel": "+233553581475"
+        }
+      ],
+      "emails": [
+        "admissions@uenr.edu.gh"
+      ],
+      "website": "https://uenr.edu.gh/",
+      "apply_url": "https://admissions.uenr.edu.gh/",
+      "address": "Sunyani, Bono Region",
+      "whatsapp": [
+        "+233553581475"
+      ],
+      "sources": [
+        {
+          "url": "https://uenr.edu.gh/contact-us/",
+          "name": "University of Energy and Natural Resources",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University of Environment and Sustainable Development"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233200955020",
+          "tel": "+233200955020"
+        },
+        {
+          "display": "+233598872565",
+          "tel": "+233598872565"
+        }
+      ],
+      "emails": [
+        "admissions@uesd.edu.gh",
+        "info@uesd.edu.gh"
+      ],
+      "website": "https://www.uesd.edu.gh/",
+      "apply_url": null,
+      "address": "Somanya, Eastern Region · EY-0328-2478",
+      "whatsapp": [
+        "+233200955020"
+      ],
+      "sources": [
+        {
+          "url": "https://www.uesd.edu.gh/admissions/",
+          "name": "University of Environment and Sustainable Development",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University of Ghana"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233302213850",
+          "tel": "+233302213850"
+        },
+        {
+          "display": "+233302213820",
+          "tel": "+233302213820"
+        }
+      ],
+      "emails": [
+        "admissions@ug.edu.gh",
+        "pad@ug.edu.gh"
+      ],
+      "website": "https://www.ug.edu.gh/",
+      "apply_url": "https://admissions.ug.edu.gh/",
+      "address": "Legon, Accra",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://admissions.ug.edu.gh/index.php/contact-us",
+          "name": "University of Ghana",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University of Cape Coast"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233332132480",
+          "tel": "+233332132480"
+        }
+      ],
+      "emails": [
+        "admissions@ucc.edu.gh"
+      ],
+      "website": "https://www.ucc.edu.gh/",
+      "apply_url": "https://apply.ucc.edu.gh/",
+      "address": "Cape Coast, Central Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://admissions.ucc.edu.gh/announcement/admission-of-regular-first-degree-students-20262027",
+          "name": "University of Cape Coast",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University of Health and Allied Sciences"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233546585633",
+          "tel": "+233546585633"
+        },
+        {
+          "display": "+233503636926",
+          "tel": "+233503636926"
+        }
+      ],
+      "emails": [],
+      "website": "https://www.uhas.edu.gh/",
+      "apply_url": null,
+      "address": "Ho, Volta Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://uhas.edu.gh/uhas/admission/application-guidelines",
+          "name": "University of Health and Allied Sciences",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University of Mines and Technology"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233332097781",
+          "tel": "+233332097781"
+        },
+        {
+          "display": "+233201355952",
+          "tel": "+233201355952"
+        },
+        {
+          "display": "+233312320323",
+          "tel": "+233312320323"
+        },
+        {
+          "display": "+233312320935",
+          "tel": "+233312320935"
+        }
+      ],
+      "emails": [
+        "admission@umat.edu.gh",
+        "webmaster@umat.edu.gh"
+      ],
+      "website": "https://umat.edu.gh/",
+      "apply_url": "https://umat.edu.gh/admissions/apply-now",
+      "address": "Tarkwa, Western Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://admissions.umat.edu.gh/how-to-apply-local-applicants/",
+          "name": "University of Mines and Technology",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University of Professional Studies, Accra"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233303958571",
+          "tel": "+233303958571"
+        },
+        {
+          "display": "+233303937544",
+          "tel": "+233303937544"
+        },
+        {
+          "display": "+233303937542",
+          "tel": "+233303937542"
+        }
+      ],
+      "emails": [
+        "admissions@upsamail.edu.gh"
+      ],
+      "website": "https://upsa.edu.gh/",
+      "apply_url": "https://admissions.upsa.edu.gh/",
+      "address": "Legon, Accra",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://admissions.upsa.edu.gh/",
+          "name": "University of Professional Studies, Accra",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "University of Media, Arts and Communication"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233302228336",
+          "tel": "+233302228336"
+        },
+        {
+          "display": "+233303941251",
+          "tel": "+233303941251"
+        }
+      ],
+      "emails": [
+        "admissions@unimac.edu.gh"
+      ],
+      "website": "https://unimac.edu.gh/",
+      "apply_url": "http://admissions.unimac.edu.gh/",
+      "address": "No. 5 Alboran Street, South Legon, Accra",
+      "whatsapp": [
+        "+233269501772"
+      ],
+      "sources": [
+        {
+          "url": "https://unimac.edu.gh/wp-content/uploads/2026/03/2026_2027_Admission-Advert_FINAL.pdf",
+          "name": "University of Media, Arts and Communication",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Accra Technical University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233544368159",
+          "tel": "+233544368159"
+        }
+      ],
+      "emails": [],
+      "website": "https://atu.edu.gh/",
+      "apply_url": "https://application.atu.edu.gh/",
+      "address": "Accra",
+      "whatsapp": [
+        "+233543264917"
+      ],
+      "sources": [
+        {
+          "url": "https://atu.edu.gh/contact-information/",
+          "name": "Accra Technical University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Bolgatanga Technical University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233382097551",
+          "tel": "+233382097551"
+        },
+        {
+          "display": "+233504811588",
+          "tel": "+233504811588"
+        }
+      ],
+      "emails": [
+        "registrar@bolgatu.edu.gh",
+        "admissions@bolgatu.edu.gh"
+      ],
+      "website": "https://bolgatu.edu.gh/",
+      "apply_url": "https://bolgatu.edu.gh/how-to-apply/",
+      "address": "Bolgatanga · UB-0964-8505",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://bolgatu.edu.gh/contact-us/",
+          "name": "Bolgatanga Technical University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Cape Coast Technical University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233556754894",
+          "tel": "+233556754894"
+        },
+        {
+          "display": "+233592774927",
+          "tel": "+233592774927"
+        },
+        {
+          "display": "+233244974544",
+          "tel": "+233244974544"
+        }
+      ],
+      "emails": [
+        "support@cctu.edu.gh"
+      ],
+      "website": "https://cctu.edu.gh/",
+      "apply_url": "https://cctu.edu.gh/admissions/",
+      "address": "Cape Coast, Central Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://cctu.edu.gh/admissions/",
+          "name": "Cape Coast Technical University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Dr. Hilla Limann Technical University",
+        "Dr Hilla Limann Technical University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233392097532",
+          "tel": "+233392097532"
+        }
+      ],
+      "emails": [
+        "admissions@dhltu.edu.gh",
+        "info@dhltu.edu.gh"
+      ],
+      "website": "https://dhltu.edu.gh/",
+      "apply_url": "https://admissions.dhltu.edu.gh/",
+      "address": "Wa, Upper West Region",
+      "whatsapp": [
+        "+233392097530"
+      ],
+      "sources": [
+        {
+          "url": "https://admissions.dhltu.edu.gh/",
+          "name": "Dr Hilla Limann Technical University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Ho Technical University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233362290146",
+          "tel": "+233362290146"
+        },
+        {
+          "display": "+233302905009",
+          "tel": "+233302905009"
+        },
+        {
+          "display": "+233501404994",
+          "tel": "+233501404994"
+        }
+      ],
+      "emails": [
+        "info@htu.edu.gh"
+      ],
+      "website": "https://htu.edu.gh/",
+      "apply_url": "https://app.htu.edu.gh/admissions/",
+      "address": "Ho, Volta Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://htu.edu.gh/admission-news/",
+          "name": "Ho Technical University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Koforidua Technical University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233342293705",
+          "tel": "+233342293705"
+        },
+        {
+          "display": "+233342022762",
+          "tel": "+233342022762"
+        }
+      ],
+      "emails": [
+        "admissions@ktu.edu.gh",
+        "info@ktu.edu.gh"
+      ],
+      "website": "https://www.ktu.edu.gh/",
+      "apply_url": "https://applyonline.ktu.edu.gh/",
+      "address": "Koforidua, Eastern Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://www.ktu.edu.gh/contact-us/",
+          "name": "Koforidua Technical University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Kumasi Technical University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233322496534",
+          "tel": "+233322496534"
+        },
+        {
+          "display": "+233322496380",
+          "tel": "+233322496380"
+        }
+      ],
+      "emails": [
+        "info@kstu.edu.gh"
+      ],
+      "website": "https://kstu.edu.gh/",
+      "apply_url": "https://iapply.kstu.edu.gh/",
+      "address": "Kumasi, Ashanti Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://kstu.edu.gh/node/466",
+          "name": "Kumasi Technical University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Sunyani Technical University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233501512556",
+          "tel": "+233501512556"
+        },
+        {
+          "display": "+233352027052",
+          "tel": "+233352027052"
+        },
+        {
+          "display": "+233352023278",
+          "tel": "+233352023278"
+        }
+      ],
+      "emails": [
+        "enquiries@stu.edu.gh"
+      ],
+      "website": "https://stu.edu.gh/",
+      "apply_url": null,
+      "address": "Sunyani, Bono Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://stu.edu.gh/about-us/the-administrative-structure/contact-us",
+          "name": "Sunyani Technical University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Takoradi Technical University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233257710695",
+          "tel": "+233257710695"
+        },
+        {
+          "display": "+233506024700",
+          "tel": "+233506024700"
+        },
+        {
+          "display": "+233312022230",
+          "tel": "+233312022230"
+        }
+      ],
+      "emails": [
+        "info@ttu.edu.gh",
+        "academicaffairs@ttu.edu.gh"
+      ],
+      "website": "https://ttu.edu.gh/",
+      "apply_url": "https://admissions.ttuportal.com/",
+      "address": "P. O. Box 256, Takoradi",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://ttu.edu.gh/",
+          "name": "Takoradi Technical University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [
+        "Tamale Technical University"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "+233372099593",
+          "tel": "+233372099593"
+        }
+      ],
+      "emails": [
+        "info@tatu.edu.gh"
+      ],
+      "website": "https://tatu.edu.gh/",
+      "apply_url": "https://apply.tatu.edu.gh/",
+      "address": "Box 3 E/R, Tamale, Northern Region",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://tatu.edu.gh/",
+          "name": "Tamale Technical University",
+          "source_class": "institution_official",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [],
+      "match_categories": [
+        "Public College of Education"
+      ],
+      "contact_scope": "central_admissions_support",
+      "phones": [
+        {
+          "display": "+233202601600",
+          "tel": "+233202601600"
+        }
+      ],
+      "emails": [
+        "info@princof.edu.gh"
+      ],
+      "website": "https://princof.edu.gh/",
+      "apply_url": "https://admission.coeportal.edu.gh/",
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://princof.edu.gh/admission/",
+          "name": "PRINCOF / Colleges of Education common admissions",
+          "source_class": "government_education_admissions_service",
+          "observed_at": "2026-09-11"
+        }
+      ],
+      "notes": "Common admissions pathway for Ghana public Colleges of Education; not a college-specific contact."
+    },
+    {
+      "entity_type": "tertiary_institution",
+      "match_names": [],
+      "match_categories": [
+        "Public Nurses/Health Training College"
+      ],
+      "contact_scope": "central_admissions_support",
+      "phones": [
+        {
+          "display": "+233557002631",
+          "tel": "+233557002631"
+        },
+        {
+          "display": "+233557005665",
+          "tel": "+233557005665"
+        },
+        {
+          "display": "+233557223960",
+          "tel": "+233557223960"
+        },
+        {
+          "display": "+233557385895",
+          "tel": "+233557385895"
+        },
+        {
+          "display": "+233557208487",
+          "tel": "+233557208487"
+        }
+      ],
+      "emails": [
+        "support.hti@moh.gov.gh"
+      ],
+      "website": "https://healthtraining.gov.gh/",
+      "apply_url": "https://register.healthtraining.gov.gh/",
+      "address": "Post Office Box M44, Ministries, Accra",
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://healthtraining.gov.gh/",
+          "name": "Ministry of Health Health Training Institution portal",
+          "source_class": "government_health_admissions_service",
+          "observed_at": "2026-09-11"
+        }
+      ],
+      "notes": "Central Ministry of Health admissions/support channel for public health training institutions; not a college-specific contact."
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "2nd Image International Skills College (Kumasi Centre)"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243259079",
+          "tel": "+233243259079"
+        }
+      ],
+      "emails": [
+        "nikkiboa1@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Akaal Skills Development Academy",
+        "Akaal Fashion College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244251277",
+          "tel": "+233244251277"
+        }
+      ],
+      "emails": [
+        "akaaldekor@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Amansan Skills Training Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0201555598",
+          "tel": "+233201555598"
+        },
+        {
+          "display": "0554605458",
+          "tel": "+233554605458"
+        }
+      ],
+      "emails": [
+        "amansaninstitute@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "BlueCrest College",
+        "Bluecrest College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244127130",
+          "tel": "+233244127130"
+        },
+        {
+          "display": "0302251150",
+          "tel": "+233302251150"
+        },
+        {
+          "display": "0302251151",
+          "tel": "+233302251151"
+        }
+      ],
+      "emails": [
+        "anabilla.anderson@bluecrest.edu.gh"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Catabb Vocational Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0277872254",
+          "tel": "+233277872254"
+        },
+        {
+          "display": "0558234702",
+          "tel": "+233558234702"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Catholic Technical Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0245024615",
+          "tel": "+233245024615"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Citizen Vocational Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0245712491",
+          "tel": "+233245712491"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Bethel School of Fashion"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0547515791",
+          "tel": "+233547515791"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Classic Splash College of Fashion"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0545046800",
+          "tel": "+233545046800"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "DHI College of Health and Education"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244213187",
+          "tel": "+233244213187"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Koka Style Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0205031513",
+          "tel": "+233205031513"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Lovty One Vocational Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0246532110",
+          "tel": "+233246532110"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "GIG Fashion and Vocational College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0553122726",
+          "tel": "+233553122726"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Maxity Skills College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243129683",
+          "tel": "+233243129683"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "JACCD Professional Development Center, Kumasi",
+        "JACCD Professional Development Center"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0558888822",
+          "tel": "+233558888822"
+        }
+      ],
+      "emails": [
+        "developmentcenter@jaccd.edu.gh",
+        "registrar@jaccd.edu.gh",
+        "b.oduro@jaccd.edu.gh"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Jeocams"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0508392939",
+          "tel": "+233508392939"
+        }
+      ],
+      "emails": [
+        "amponsahjoseph399@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "JAJIL Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243549188",
+          "tel": "+233243549188"
+        },
+        {
+          "display": "0277733108",
+          "tel": "+233277733108"
+        }
+      ],
+      "emails": [
+        "jajilfascat@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Mancell Girls' Vocational Institute",
+        "Mancell Girls’ Vocational Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244777891",
+          "tel": "+233244777891"
+        },
+        {
+          "display": "0203739550",
+          "tel": "+233203739550"
+        }
+      ],
+      "emails": [
+        "ulysses@yahoo.ca"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Methodist Women’s Training Centre",
+        "Methodist Women's Training Centre"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244738484",
+          "tel": "+233244738484"
+        }
+      ],
+      "emails": [
+        "arethagraham@hotmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Offinso Rural Technology Centre"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244943356",
+          "tel": "+233244943356"
+        }
+      ],
+      "emails": [
+        "rakopat1957@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Opoku Ware Girls’ Academy",
+        "Opoku Ware Girls' Academy"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244749398",
+          "tel": "+233244749398"
+        },
+        {
+          "display": "0245210373",
+          "tel": "+233245210373"
+        }
+      ],
+      "emails": [
+        "Peeboat2@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ],
+      "notes": "Source also displays a phone string with an unusual length; omitted pending verification."
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Oyska Technical Institute, Kumasi Centre",
+        "Oyska Technical Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244463887",
+          "tel": "+233244463887"
+        }
+      ],
+      "emails": [
+        "oyska2@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "TINAKBOAT"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243676175",
+          "tel": "+233243676175"
+        },
+        {
+          "display": "0244714440",
+          "tel": "+233244714440"
+        }
+      ],
+      "emails": [
+        "tinakboatfashion@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Ramseyer Vocational/Technical Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0265081108",
+          "tel": "+233265081108"
+        },
+        {
+          "display": "0508077728",
+          "tel": "+233508077728"
+        },
+        {
+          "display": "0243809245",
+          "tel": "+233243809245"
+        }
+      ],
+      "emails": [
+        "ramsvotech@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "St. Mary’s Girls VTI",
+        "St. Mary's Girls VTI"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244954324",
+          "tel": "+233244954324"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "St. Peter’s Girls VTI",
+        "St. Peter's Girls VTI"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0277239983",
+          "tel": "+233277239983"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Uni-Jay Kumasi"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0208157945",
+          "tel": "+233208157945"
+        },
+        {
+          "display": "0207812212",
+          "tel": "+233207812212"
+        }
+      ],
+      "emails": [
+        "unijaycad@yahoo.com",
+        "euniceabobigu@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Greentech Academy Mim"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0240159945",
+          "tel": "+233240159945"
+        }
+      ],
+      "emails": [
+        "w.amegagah@ghanagreentech.org"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Gracelove Creations Training Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0208162035",
+          "tel": "+233208162035"
+        },
+        {
+          "display": "0542635350",
+          "tel": "+233542635350"
+        },
+        {
+          "display": "0244795927",
+          "tel": "+233244795927"
+        }
+      ],
+      "emails": [
+        "joanaeshun34@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Perez University College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244761335",
+          "tel": "+233244761335"
+        }
+      ],
+      "emails": [
+        "winnigold@yahoo.com",
+        "info@perez.edu.gh"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Liberty Specialist Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243912789",
+          "tel": "+233243912789"
+        },
+        {
+          "display": "0548286834",
+          "tel": "+233548286834"
+        }
+      ],
+      "emails": [
+        "lei.edu.gh@gmail.com",
+        "ednaamet@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Mac-Dic Hospitality Academy",
+        "Mac-Dic Royal Hospitality Academy"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243200948",
+          "tel": "+233243200948"
+        },
+        {
+          "display": "0548611511",
+          "tel": "+233548611511"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Prince Boateng Memorial Vocational School"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243319436",
+          "tel": "+233243319436"
+        },
+        {
+          "display": "0244780590",
+          "tel": "+233244780590"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Somanya Secondary Technical"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244973942",
+          "tel": "+233244973942"
+        }
+      ],
+      "emails": [
+        "joesotech@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "St. Anne’s VTI",
+        "St. Anne's VTI"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [],
+      "emails": [
+        "Saintanne63@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ],
+      "notes": "Source phone has an unusual digit count and is withheld pending verification."
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Stitch in Time"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244204315",
+          "tel": "+233244204315"
+        }
+      ],
+      "emails": [
+        "dot6181@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Baptist VTC"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0246504779",
+          "tel": "+233246504779"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ],
+      "notes": "A second source phone has an unusual digit count and is withheld pending verification."
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "2nd Image International Skills College -(Accra Centre)",
+        "2nd Image International Skills College (Accra Centre)"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243259079",
+          "tel": "+233243259079"
+        }
+      ],
+      "emails": [
+        "info@2ndimageghana.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Abbi College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0208135138",
+          "tel": "+233208135138"
+        }
+      ],
+      "emails": [
+        "manncurry@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Abrantie College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244331481",
+          "tel": "+233244331481"
+        }
+      ],
+      "emails": [
+        "kthompsonp@hotmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Accra Girls Vocational Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244946246",
+          "tel": "+233244946246"
+        },
+        {
+          "display": "0248522926",
+          "tel": "+233248522926"
+        }
+      ],
+      "emails": [
+        "agivoc73@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Advance Automotive Training Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0201752382",
+          "tel": "+233201752382"
+        },
+        {
+          "display": "0277803782",
+          "tel": "+233277803782"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Africa Sleek"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244313433",
+          "tel": "+233244313433"
+        }
+      ],
+      "emails": [
+        "norabman@gmail.com",
+        "norabannerman@sleekgarments.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Al-had Technical/Vocational"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0249590083",
+          "tel": "+233249590083"
+        }
+      ],
+      "emails": [
+        "salimaissah12@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "AMC College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0555939588",
+          "tel": "+233555939588"
+        }
+      ],
+      "emails": [
+        "amc_cosmetics@hotmail.com",
+        "adelaidepoku@hotmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "BG Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244148223",
+          "tel": "+233244148223"
+        }
+      ],
+      "emails": [
+        "maayebia@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "By His Grace Fashion"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244022935",
+          "tel": "+233244022935"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Carol-Karl Vocational"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0277431710",
+          "tel": "+233277431710"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "DAA Fisheries"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0208166117",
+          "tel": "+233208166117"
+        },
+        {
+          "display": "0267144509",
+          "tel": "+233267144509"
+        }
+      ],
+      "emails": [
+        "emenort4u@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "DB Professional Motor Services"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0508917980",
+          "tel": "+233508917980"
+        }
+      ],
+      "emails": [
+        "dbokutu@yahoo.co.uk"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "De-Paragon Beauty Institute and Clinic"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244427744",
+          "tel": "+233244427744"
+        }
+      ],
+      "emails": [
+        "institutedepragonbeauty@gmail.com",
+        "aggesamp@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Design and Technology Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0542890768",
+          "tel": "+233542890768"
+        }
+      ],
+      "emails": [
+        "jo.addy@gmail.com",
+        "constanceswaniker@gmail.com",
+        "jaddy@dtiafrica.net"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Doress Skills Development Center",
+        "Doress Fashion and Designs"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244640361",
+          "tel": "+233244640361"
+        }
+      ],
+      "emails": [
+        "doris.kessie@gmail.com",
+        "doriskessie@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "FC Beauty College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0544359994",
+          "tel": "+233544359994"
+        },
+        {
+          "display": "0577020109",
+          "tel": "+233577020109"
+        },
+        {
+          "display": "0244233494",
+          "tel": "+233244233494"
+        }
+      ],
+      "emails": [
+        "admin@fcbeautycollege.com.gh",
+        "pokuaobeng@foreverclair.com.gh"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Flair Catering"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0242422059",
+          "tel": "+233242422059"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Gensheila"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0208166279",
+          "tel": "+233208166279"
+        }
+      ],
+      "emails": [
+        "gennystrend@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Hannah Girls"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243525610",
+          "tel": "+233243525610"
+        },
+        {
+          "display": "0264525610",
+          "tel": "+233264525610"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Nateco College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0201207467",
+          "tel": "+233201207467"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Global Training Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244277452",
+          "tel": "+233244277452"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Institute of African Art And Technology (IAAT), Nallem Clothing",
+        "Institute of African Art and Technology (IAAT), Nallem Clothing"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0501586292",
+          "tel": "+233501586292"
+        }
+      ],
+      "emails": [
+        "admin@iaat.edu.gh",
+        "registrar@iaat.edu.gh"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "J’Nissi",
+        "J'Nissi"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0552537505",
+          "tel": "+233552537505"
+        }
+      ],
+      "emails": [
+        "evey1969@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "JACCD Design Institute Africa"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0302797471",
+          "tel": "+233302797471"
+        }
+      ],
+      "emails": [
+        "developmentcenter@jaccd.edu.gh",
+        "registrar@jaccd.edu.gh"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Jaesm VTI",
+        "JAESM Vocational Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243801633",
+          "tel": "+233243801633"
+        }
+      ],
+      "emails": [
+        "maryanane@hotmail.com",
+        "info@jaesmvocationalinstitute.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "KAD"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0272460825",
+          "tel": "+233272460825"
+        },
+        {
+          "display": "0559712373",
+          "tel": "+233559712373"
+        }
+      ],
+      "emails": [
+        "kadmanufacturing@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Kavedal"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0208312348",
+          "tel": "+233208312348"
+        },
+        {
+          "display": "0244706574",
+          "tel": "+233244706574"
+        }
+      ],
+      "emails": [
+        "adi.millah@outlook.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Khameen Professional Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0303402152",
+          "tel": "+233303402152"
+        },
+        {
+          "display": "0244384354",
+          "tel": "+233244384354"
+        }
+      ],
+      "emails": [
+        "info@khameen.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Mabs Institute Fashion"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243131613",
+          "tel": "+233243131613"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Marshall College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0207671943",
+          "tel": "+233207671943"
+        }
+      ],
+      "emails": [
+        "nettey@marshalls.edu.gh",
+        "netteymichael@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Moder Multimedia"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0266390850",
+          "tel": "+233266390850"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Naa Dei Fashion"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0262439431",
+          "tel": "+233262439431"
+        },
+        {
+          "display": "0248224110",
+          "tel": "+233248224110"
+        }
+      ],
+      "emails": [
+        "naaei.ins@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Naa Suma"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0202781085",
+          "tel": "+233202781085"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Navina Fashion Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0201061195",
+          "tel": "+233201061195"
+        }
+      ],
+      "emails": [
+        "bobnel1900@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Nightingale School of Nursing",
+        "NIGTTINGALE HEALTH"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0269545044",
+          "tel": "+233269545044"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "PAVICO"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0242705213",
+          "tel": "+233242705213"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Pentecost Skill Development Centre"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244228827",
+          "tel": "+233244228827"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Pentecost Vocational Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244777047",
+          "tel": "+233244777047"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Phasses Beauty Institute",
+        "Phases Beauty Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0268177050",
+          "tel": "+233268177050"
+        }
+      ],
+      "emails": [
+        "info@phbeautyinst.com",
+        "windake@yahoo.co.uk"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Presbyterian College for Skills Development"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243132203",
+          "tel": "+233243132203"
+        },
+        {
+          "display": "0302632469",
+          "tel": "+233302632469"
+        }
+      ],
+      "emails": [
+        "prescosd@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Prestige Institute Professional"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0246547854",
+          "tel": "+233246547854"
+        },
+        {
+          "display": "0267669067",
+          "tel": "+233267669067"
+        }
+      ],
+      "emails": [
+        "kuksferguson@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Salon Services Academy"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244276218",
+          "tel": "+233244276218"
+        },
+        {
+          "display": "0554093995",
+          "tel": "+233554093995"
+        }
+      ],
+      "emails": [
+        "salonservicesltd@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "STEMAPET"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244220331",
+          "tel": "+233244220331"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Seasons and Occasions"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244223024",
+          "tel": "+233244223024"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Shiv-India Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0570801624",
+          "tel": "+233570801624"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "STREC Vocational Education Training Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0572752561",
+          "tel": "+233572752561"
+        }
+      ],
+      "emails": [
+        "chris.projects@hotmail.co.uk",
+        "phoebeyaa@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Tessare Memorial"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0208231425",
+          "tel": "+233208231425"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "The Make-Up Academy"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0552555555",
+          "tel": "+233552555555"
+        }
+      ],
+      "emails": [
+        "makeupghana@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Trinity Hospitality"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243761679",
+          "tel": "+233243761679"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Uni-Jay College of Arts and Design",
+        "Uni-Jay Accra"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0207812212",
+          "tel": "+233207812212"
+        },
+        {
+          "display": "0208157945",
+          "tel": "+233208157945"
+        }
+      ],
+      "emails": [
+        "unijaycad@gmail.com",
+        "unijay@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Vidol School of Fashion Designing",
+        "Vidols Fashion"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0206357658",
+          "tel": "+233206357658"
+        },
+        {
+          "display": "0242356678",
+          "tel": "+233242356678"
+        }
+      ],
+      "emails": [
+        "vidols2000@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Vinesthy"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244313468",
+          "tel": "+233244313468"
+        },
+        {
+          "display": "0208133848",
+          "tel": "+233208133848"
+        }
+      ],
+      "emails": [
+        "vinesthy1992@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Wellness Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0501391716",
+          "tel": "+233501391716"
+        }
+      ],
+      "emails": [
+        "info@w-institute.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Winglow Fashion Academy"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0208140456",
+          "tel": "+233208140456"
+        },
+        {
+          "display": "0248884288",
+          "tel": "+233248884288"
+        },
+        {
+          "display": "0249445826",
+          "tel": "+233249445826"
+        }
+      ],
+      "emails": [
+        "winglow13@gmail.com",
+        "winglowfashionacademy@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Wintech Professional"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243267277",
+          "tel": "+233243267277"
+        }
+      ],
+      "emails": [
+        "mawuliakoto@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ],
+      "notes": "One additional source phone has an unusual digit count and is withheld pending verification."
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "YWCA"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0246694866",
+          "tel": "+233246694866"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "YMCA Tech Training"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244769412",
+          "tel": "+233244769412"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Zaddingtong Hospitality"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244981060",
+          "tel": "+233244981060"
+        },
+        {
+          "display": "0508033009",
+          "tel": "+233508033009"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Active Brain"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243729300",
+          "tel": "+233243729300"
+        }
+      ],
+      "emails": [
+        "brain@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Amison Secretarial"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0277781107",
+          "tel": "+233277781107"
+        },
+        {
+          "display": "0267781107",
+          "tel": "+233267781107"
+        }
+      ],
+      "emails": [
+        "amisonss@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "BA Anyass"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0240343232",
+          "tel": "+233240343232"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ],
+      "notes": "Source email-like string lacks @ and is withheld as invalid."
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Brooks Dreams Foundation"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0262268322",
+          "tel": "+233262268322"
+        },
+        {
+          "display": "0244268322",
+          "tel": "+233244268322"
+        }
+      ],
+      "emails": [
+        "info@brooksdreams.org",
+        "memunakaleem@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Imam Ibrahim"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0249658888",
+          "tel": "+233249658888"
+        }
+      ],
+      "emails": [
+        "abdlah@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "IAAT Tamale"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0501586292",
+          "tel": "+233501586292"
+        },
+        {
+          "display": "0501580620",
+          "tel": "+233501580620"
+        }
+      ],
+      "emails": [
+        "admin@iaat.edu.gh"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Modern Star Integrated School"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244986323",
+          "tel": "+233244986323"
+        }
+      ],
+      "emails": [
+        "modernstarsch@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Naa Luro"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0241308534",
+          "tel": "+233241308534"
+        },
+        {
+          "display": "0241099718",
+          "tel": "+233241099718"
+        }
+      ],
+      "emails": [
+        "naalurointernationalacademy@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "M.M. Awal Enterprise"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0249658888",
+          "tel": "+233249658888"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "PSDI"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244401281",
+          "tel": "+233244401281"
+        }
+      ],
+      "emails": [
+        "wakaaso@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Methodist Vocational & Skills Training Center Tamale"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243248993",
+          "tel": "+233243248993"
+        },
+        {
+          "display": "0243254754",
+          "tel": "+233243254754"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "St Theresa VTI Daffiame",
+        "St. Theresa VTI Daffiame"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0248183989",
+          "tel": "+233248183989"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Oscar Morin VTI"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0542401990",
+          "tel": "+233542401990"
+        }
+      ],
+      "emails": [
+        "oscarmorinvti@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Divine Flavours VTI",
+        "Divine Flavours Institute"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0207092422",
+          "tel": "+233207092422"
+        },
+        {
+          "display": "0553138581",
+          "tel": "+233553138581"
+        },
+        {
+          "display": "0207092423",
+          "tel": "+233207092423"
+        },
+        {
+          "display": "0247071870",
+          "tel": "+233247071870"
+        }
+      ],
+      "emails": [
+        "Divineflavours88@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "VENADASH"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243072296",
+          "tel": "+233243072296"
+        },
+        {
+          "display": "0242732322",
+          "tel": "+233242732322"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "2nd Image Denu Centre"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243259079",
+          "tel": "+233243259079"
+        }
+      ],
+      "emails": [
+        "nikkiboa1@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "ERIJEM"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0249983371",
+          "tel": "+233249983371"
+        },
+        {
+          "display": "0208830016",
+          "tel": "+233208830016"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "International Needs Ghana"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243918738",
+          "tel": "+233243918738"
+        }
+      ],
+      "emails": [
+        "invtc.cbt@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "NEWIG"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244981846",
+          "tel": "+233244981846"
+        }
+      ],
+      "emails": [
+        "newig2002@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "St. Theresa Centre for Physically Challenged"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0541413746",
+          "tel": "+233541413746"
+        }
+      ],
+      "emails": [
+        "sttheresa1989@gmail.com",
+        "epijo4you@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Bia College Health/Skills"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243077713",
+          "tel": "+233243077713"
+        },
+        {
+          "display": "0501364574",
+          "tel": "+233501364574"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Bliss Spa Academy"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0277802221",
+          "tel": "+233277802221"
+        }
+      ],
+      "emails": [
+        "blisspa2020@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Dress-Up Academy"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0312036011",
+          "tel": "+233312036011"
+        },
+        {
+          "display": "0501579365",
+          "tel": "+233501579365"
+        }
+      ],
+      "emails": [
+        "dressupgh@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Gagarin Design"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0242739188",
+          "tel": "+233242739188"
+        }
+      ],
+      "emails": [
+        "gagarindesigns@yahoo.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Transformation Skills College"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0244738484",
+          "tel": "+233244738484"
+        },
+        {
+          "display": "0203775307",
+          "tel": "+233203775307"
+        },
+        {
+          "display": "0263644588",
+          "tel": "+233263644588"
+        }
+      ],
+      "emails": [
+        "arethagraham@hotmail.com",
+        "nanakwamejayr@gmail.com",
+        "akosuaaddai@gmail.com"
+      ],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "entity_type": "tvet_provider",
+      "match_names": [
+        "Asante Tano Methodist Technical/Vocational School"
+      ],
+      "match_categories": [],
+      "contact_scope": "entity_direct",
+      "phones": [
+        {
+          "display": "0243551757",
+          "tel": "+233243551757"
+        }
+      ],
+      "emails": [],
+      "website": null,
+      "apply_url": null,
+      "address": null,
+      "whatsapp": [],
+      "sources": [
+        {
+          "url": "https://gtvets.gov.gh/private-schools/",
+          "name": "Ghana TVET Service private institutions directory",
+          "source_class": "government_service_directory",
+          "observed_at": "2026-09-11"
+        }
+      ]
+    }
+  ]
+}
