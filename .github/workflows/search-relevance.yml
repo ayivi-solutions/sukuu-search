@@ -1,0 +1,43 @@
+name: Search relevance regression
+
+on:
+  pull_request:
+    paths:
+      - 'assets/search-ranker-v1.5.0.js'
+      - 'assets/national-discover-v1.5.0.js'
+      - 'data/search/**'
+      - 'tests/search-relevance-gold-v1.5.0.json'
+      - 'tools/evaluate-search-relevance-v1.5.0.cjs'
+      - '.github/workflows/search-relevance.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'assets/search-ranker-v1.5.0.js'
+      - 'assets/national-discover-v1.5.0.js'
+      - 'data/search/**'
+      - 'tests/search-relevance-gold-v1.5.0.json'
+      - 'tools/evaluate-search-relevance-v1.5.0.cjs'
+      - '.github/workflows/search-relevance.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  relevance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Evaluate national search relevance
+        run: node tools/evaluate-search-relevance-v1.5.0.cjs
+      - name: Upload relevance report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: search-relevance-report-v1.5.0
+          path: SEARCH-RELEVANCE-REPORT-v1.5.0.json
+          if-no-files-found: error
+          retention-days: 30
