@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-10",
+  "generated_at": "2026-09-11",
   "country": "Ghana",
   "sources": [
     {
@@ -70,7 +70,7 @@
       ],
       "reuse_status": "review_required",
       "ingestion_policy": "official_snapshot_then_verify",
-      "last_observed": "2026-09-10",
+      "last_observed": "2026-09-11",
       "notes": "Statutory accreditation authority for tertiary institutions and programmes. Public GTEC surfaces can expose changing counts; preserve snapshot date and source URL per observation."
     },
     {
@@ -90,7 +90,7 @@
       ],
       "reuse_status": "review_required",
       "ingestion_policy": "official_snapshot_then_verify",
-      "last_observed": "2026-09-10",
+      "last_observed": "2026-09-11",
       "notes": "Official provider register exposes provider, location, category, accreditation type/dates, programme, NTVETQF level, qualification and accreditation code."
     },
     {
@@ -157,12 +157,13 @@
       "dataset_url": "https://hefra.gov.gh/licensed-facilities/",
       "topics": [
         "health_facilities",
-        "school_support_services"
+        "licensing",
+        "health_services"
       ],
       "reuse_status": "review_required",
       "ingestion_policy": "official_directory_snapshot",
       "last_observed": "2026-09-10",
-      "notes": "Candidate source for licensed health facilities relevant to school safety and proximity intelligence."
+      "notes": "Candidate authoritative source for licensed health facilities and related national health-service discovery."
     },
     {
       "id": "national-ambulance-service",
@@ -174,13 +175,12 @@
       "dataset_url": "https://nas.gov.gh/regional-offices.php",
       "topics": [
         "ambulance",
-        "emergency_services",
-        "school_safety"
+        "emergency_services"
       ],
       "reuse_status": "review_required",
       "ingestion_policy": "official_directory_snapshot",
       "last_observed": "2026-09-10",
-      "notes": "Official regional/station directory; public page reports nationwide station coverage."
+      "notes": "Official regional/station directory; candidate source for national emergency-response service and station metadata."
     },
     {
       "id": "ghana-police-service",
@@ -192,8 +192,8 @@
       "dataset_url": "https://police.gov.gh/en/index.php/police_stations/",
       "topics": [
         "police",
-        "safety",
-        "school_safety"
+        "public_safety",
+        "security_services"
       ],
       "reuse_status": "review_required",
       "ingestion_policy": "official_directory_snapshot",
@@ -216,7 +216,7 @@
       "reuse_status": "review_required",
       "ingestion_policy": "official_register_snapshot",
       "last_observed": "2026-09-10",
-      "notes": "Candidate source for regulated financial/payment entities where education-payment or proximity use cases justify inclusion."
+      "notes": "Candidate authoritative source for regulated financial institutions and payment-service entities."
     },
     {
       "id": "ghana-statistical-service",
@@ -229,12 +229,13 @@
       "topics": [
         "demographics",
         "census",
+        "national_statistics",
         "education_indicators"
       ],
       "reuse_status": "review_required",
       "ingestion_policy": "official_statistical_dataset",
       "last_observed": "2026-09-10",
-      "notes": "Candidate source for district/locality demographic and education indicators. Statistical geography must retain vintage and boundary definitions."
+      "notes": "Candidate source for national and subnational official indicators. Statistical geography must retain dataset vintage and boundary definitions."
     },
     {
       "id": "ghana-post-gps",
@@ -254,5 +255,7 @@
       "last_observed": "2026-09-10",
       "notes": "Potential national digital-address identifier. Do not bulk-copy or infer addresses without an authorized data source or integration basis."
     }
-  ]
+  ],
+  "registry_version": "1.2.0",
+  "scope_statement": "Country-wide Ghana metadata and discovery infrastructure for businesses, organisations, services, institutions, places and other entities. Schools are the first production vertical, not the platform boundary."
 }

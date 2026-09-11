@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://search.sukuux.com/data/registry/schemas/entity.schema.json",
-  "title": "Sukuu Search Ghana Entity",
+  "title": "Sukuu Search Ghana National Entity",
   "type": "object",
   "additionalProperties": true,
   "required": [
@@ -39,7 +39,24 @@
         "locality",
         "digital_address",
         "indicator",
-        "other"
+        "other",
+        "business",
+        "company",
+        "organization",
+        "ngo",
+        "government_agency",
+        "government_office",
+        "service_provider",
+        "place",
+        "point_of_interest",
+        "transport_operator",
+        "transport_terminal",
+        "utility_provider",
+        "emergency_service",
+        "tourism_site",
+        "cultural_site",
+        "job",
+        "event"
       ]
     },
     "name": {

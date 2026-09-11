@@ -1,0 +1,528 @@
+{
+  "observed_at": "2026-09-11T02:16:50.681Z",
+  "source_id": "ctvet",
+  "records": [
+    {
+      "ordinal": 1,
+      "trade_programme_raw": "Plumbing and Gas Technology",
+      "ntvetqf_levels_raw": "NP I, NP II, NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 2,
+      "trade_programme_raw": "Block Laying and Tiling",
+      "ntvetqf_levels_raw": "NP I, NP II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 3,
+      "trade_programme_raw": "Electrical Installation",
+      "ntvetqf_levels_raw": "NP I, NP II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 4,
+      "trade_programme_raw": "Electronics",
+      "ntvetqf_levels_raw": "NP I, NP II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 5,
+      "trade_programme_raw": "Cosmetology",
+      "ntvetqf_levels_raw": "NP I, NP II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 6,
+      "trade_programme_raw": "Make-Up Artistry",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 7,
+      "trade_programme_raw": "Automotive Mechanic",
+      "ntvetqf_levels_raw": "NP I, NP II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 8,
+      "trade_programme_raw": "Bio-digester Construction",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 9,
+      "trade_programme_raw": "Telecom and Networking",
+      "ntvetqf_levels_raw": "NC I",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 10,
+      "trade_programme_raw": "Wood Construction Technology",
+      "ntvetqf_levels_raw": "NPI, NP II, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 11,
+      "trade_programme_raw": "Textiles Design Technology",
+      "ntvetqf_levels_raw": "NPI, NP II, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 12,
+      "trade_programme_raw": "Furniture Design Technology",
+      "ntvetqf_levels_raw": "NPI, NP II, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 13,
+      "trade_programme_raw": "Fashion Design Technology",
+      "ntvetqf_levels_raw": "NPI, NP II, NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 14,
+      "trade_programme_raw": "Mechatronics",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 15,
+      "trade_programme_raw": "Hospitality and Catering Management",
+      "ntvetqf_levels_raw": "NPI, NP II, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 16,
+      "trade_programme_raw": "Automotive Engineering Technology",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 17,
+      "trade_programme_raw": "Electrical Engineering Technology",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 18,
+      "trade_programme_raw": "Electronic Engineering Technology",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 19,
+      "trade_programme_raw": "Agriculture Mechanisation",
+      "ntvetqf_levels_raw": "NP I, NPII,NCI,HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 20,
+      "trade_programme_raw": "Poultry Production",
+      "ntvetqf_levels_raw": "NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 21,
+      "trade_programme_raw": "Agripreneurship",
+      "ntvetqf_levels_raw": "NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 22,
+      "trade_programme_raw": "Solar Photo Voltaic",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 23,
+      "trade_programme_raw": "CAD-CAM",
+      "ntvetqf_levels_raw": "NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 24,
+      "trade_programme_raw": "Tree Crop Production",
+      "ntvetqf_levels_raw": "NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 25,
+      "trade_programme_raw": "Livestock",
+      "ntvetqf_levels_raw": "NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 26,
+      "trade_programme_raw": "Artefact Design- Jewelry",
+      "ntvetqf_levels_raw": "NP I, NP II, NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 27,
+      "trade_programme_raw": "Artefact Design-Beading",
+      "ntvetqf_levels_raw": "NP I, NP II, NC I",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 28,
+      "trade_programme_raw": "Multimedia Practice",
+      "ntvetqf_levels_raw": "NPI, NP II, NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 29,
+      "trade_programme_raw": "Arable Crop Production",
+      "ntvetqf_levels_raw": "NCII",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 30,
+      "trade_programme_raw": "Computer Software Application and Development",
+      "ntvetqf_levels_raw": "HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 31,
+      "trade_programme_raw": "Architecture Draghtmanship",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 32,
+      "trade_programme_raw": "Autobody Repairs",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 33,
+      "trade_programme_raw": "Beauty Therapy",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 34,
+      "trade_programme_raw": "Computer Hardware and Sofrtware",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 35,
+      "trade_programme_raw": "Fine Art Painting",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 36,
+      "trade_programme_raw": "Heavy Duty Equipment Operation (Forklift)",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 37,
+      "trade_programme_raw": "Furniture Technology",
+      "ntvetqf_levels_raw": "NPI, NP II, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 38,
+      "trade_programme_raw": "Graphic Design Technology",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 39,
+      "trade_programme_raw": "Hair Technology",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 40,
+      "trade_programme_raw": "Heavy Duty Mechanics",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 41,
+      "trade_programme_raw": "Industrial Art-Jewelry",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 42,
+      "trade_programme_raw": "Industrial Mechanics",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 43,
+      "trade_programme_raw": "Leather Works Technology",
+      "ntvetqf_levels_raw": "NP I, NP II, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 44,
+      "trade_programme_raw": "Mechanical Engineering Technology",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 45,
+      "trade_programme_raw": "Refridgeration and Air Conditioning",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 46,
+      "trade_programme_raw": "Small Engines Technology",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 47,
+      "trade_programme_raw": "Textile Technology",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 48,
+      "trade_programme_raw": "Tourism Management",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 49,
+      "trade_programme_raw": "Welding and Fabrication",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 50,
+      "trade_programme_raw": "Wood Construction Technology",
+      "ntvetqf_levels_raw": "NP I, NP II, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 51,
+      "trade_programme_raw": "Multimedia Practice",
+      "ntvetqf_levels_raw": "NP I, NP II, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 52,
+      "trade_programme_raw": "Beading",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 53,
+      "trade_programme_raw": "Sculpture",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 54,
+      "trade_programme_raw": "Ceramics",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 55,
+      "trade_programme_raw": "Electronic Security System",
+      "ntvetqf_levels_raw": "NCII",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 56,
+      "trade_programme_raw": "Soap Making",
+      "ntvetqf_levels_raw": "NP I",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 57,
+      "trade_programme_raw": "Weaving",
+      "ntvetqf_levels_raw": "NP I",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 58,
+      "trade_programme_raw": "Education CBT OPTION",
+      "ntvetqf_levels_raw": "HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 59,
+      "trade_programme_raw": "Water Technology",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 60,
+      "trade_programme_raw": "Safety Technology",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 61,
+      "trade_programme_raw": "Personal Fitness and Sports Trainer",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 62,
+      "trade_programme_raw": "Welding & Fabrication Technology",
+      "ntvetqf_levels_raw": "NP I, NP II, NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 63,
+      "trade_programme_raw": "Agriculture Machinery Operations",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 64,
+      "trade_programme_raw": "Paramedical Aesthetics",
+      "ntvetqf_levels_raw": "HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 65,
+      "trade_programme_raw": "Automotive Assembling Technology",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 66,
+      "trade_programme_raw": "Automotive Design & Manufacturing Technology",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 67,
+      "trade_programme_raw": "Culinary Art",
+      "ntvetqf_levels_raw": "NPI, NPII, NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 68,
+      "trade_programme_raw": "Generator and Power Plant Technology",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 69,
+      "trade_programme_raw": "Glazing and Cladding",
+      "ntvetqf_levels_raw": "NPI, NPII, NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 70,
+      "trade_programme_raw": "IT Infrastructure",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 71,
+      "trade_programme_raw": "Medicine Counter Assistants",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 72,
+      "trade_programme_raw": "Pattern Making",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 73,
+      "trade_programme_raw": "Pharmaceutical Manufacturing",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 74,
+      "trade_programme_raw": "Pharmacy Technology",
+      "ntvetqf_levels_raw": "HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 75,
+      "trade_programme_raw": "Rebar Bending and Fixing",
+      "ntvetqf_levels_raw": "NPI, NPII, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 76,
+      "trade_programme_raw": "Renewable Energy",
+      "ntvetqf_levels_raw": "HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 77,
+      "trade_programme_raw": "Road Construction Technology",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 78,
+      "trade_programme_raw": "Road Maintenance Technology",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 79,
+      "trade_programme_raw": "Highway and Road Transportation Engieering Technology",
+      "ntvetqf_levels_raw": "HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 80,
+      "trade_programme_raw": "Robotics Technology",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 81,
+      "trade_programme_raw": "Environmental Sanitation Technology",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 82,
+      "trade_programme_raw": "Telecommunication and Networking",
+      "ntvetqf_levels_raw": "NCI, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 83,
+      "trade_programme_raw": "Tour Guiding Operations",
+      "ntvetqf_levels_raw": "NPI, NPII, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 84,
+      "trade_programme_raw": "Tricology",
+      "ntvetqf_levels_raw": "HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 85,
+      "trade_programme_raw": "Waste Management",
+      "ntvetqf_levels_raw": "NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 86,
+      "trade_programme_raw": "Construction Machinery Maintenance",
+      "ntvetqf_levels_raw": "NPI, NPII, NC I, NC II, HND",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    },
+    {
+      "ordinal": 87,
+      "trade_programme_raw": "Building Construction",
+      "ntvetqf_levels_raw": "NC I, NC II",
+      "source_url": "https://ctvet.gov.gh/cbt-approved-programmes/"
+    }
+  ]
+}

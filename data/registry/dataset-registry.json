@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-10",
+  "generated_at": "2026-09-11",
   "catalogue_name": "Sukuu Search Ghana National Metadata Catalogue",
-  "scope_statement": "Education-first national discovery. Non-education datasets are included only where they materially enrich education, learner, parent, school or institutional decisions.",
+  "scope_statement": "Country-wide Ghana metadata and discovery infrastructure for businesses, organisations, services, institutions, places and other entities. Schools are the first production vertical, not the platform boundary.",
   "datasets": [
     {
       "id": "ghana-schools",
@@ -48,7 +48,7 @@
       "id": "ghana-tertiary-institutions",
       "name": "Accredited Tertiary Institutions",
       "vertical": "tertiary",
-      "status": "ingestion_ready",
+      "status": "live",
       "priority": 1,
       "coverage": "National",
       "entity_types": [
@@ -57,15 +57,18 @@
       "primary_source_ids": [
         "gtec"
       ],
-      "route": "/metadata/?q=tertiary",
-      "description": "Institution-level tertiary accreditation metadata. Ingest from a dated GTEC register snapshot before public entity pages are activated.",
-      "data_quality_note": "GTEC public surfaces observed on 10 Sep 2026 expose differing aggregate institution counts; the register snapshot, not a headline count, will be authoritative."
+      "route": "/tertiary/",
+      "description": "GTEC institution-level accreditation metadata materialized from all published category listing pages with authority institutionId and provenance.",
+      "data_quality_note": "GTEC public surfaces observed on 10 Sep 2026 expose differing aggregate institution counts; the register snapshot, not a headline count, will be authoritative.",
+      "local_record_count": 316,
+      "source_listing_rows": 316,
+      "last_source_snapshot": "2026-09-11"
     },
     {
       "id": "ghana-tertiary-programmes",
       "name": "Accredited Tertiary Programmes",
       "vertical": "tertiary",
-      "status": "ingestion_ready",
+      "status": "live",
       "priority": 1,
       "coverage": "National",
       "entity_types": [
@@ -74,14 +77,16 @@
       "primary_source_ids": [
         "gtec"
       ],
-      "route": "/metadata/?q=programme",
-      "description": "Programme-to-institution accreditation metadata for programme-level discovery."
+      "route": "/programmes/",
+      "description": "GTEC programme accreditation occurrences materialized from institution programme registers.",
+      "local_record_count": 3614,
+      "last_source_snapshot": "2026-09-11"
     },
     {
       "id": "ghana-tvet-providers-programmes",
       "name": "Accredited TVET Providers & Programmes",
       "vertical": "tvet",
-      "status": "ingestion_ready",
+      "status": "live",
       "priority": 1,
       "coverage": "National",
       "entity_types": [
@@ -92,8 +97,13 @@
       "primary_source_ids": [
         "ctvet"
       ],
-      "route": "/metadata/?q=tvet",
-      "description": "Provider, programme, NTVETQF level, qualification and accreditation metadata from CTVET."
+      "route": "/tvet/",
+      "description": "Complete numbered CTVET provider register plus programme, NTVETQF level, qualification and dated accreditation occurrences.",
+      "local_record_count": 1918,
+      "provider_count": 317,
+      "programme_occurrence_count": 1601,
+      "cbt_taxonomy_count": 87,
+      "last_source_snapshot": "2026-09-11"
     },
     {
       "id": "ghana-approved-learning-resources",
@@ -168,7 +178,7 @@
         "ghana-library-authority"
       ],
       "route": "/metadata/?q=library",
-      "description": "Branch locations and learning-service metadata for proximity to learners and schools.",
+      "description": "Branch locations and public learning-service metadata for national discovery.",
       "observations": [
         {
           "as_of": "2026-09-10",
@@ -192,9 +202,9 @@
       "description": "Regional and district education administration metadata, contacts and jurisdictional relationships."
     },
     {
-      "id": "ghana-school-health-support",
-      "name": "Licensed Health Facilities Near Schools",
-      "vertical": "support_services",
+      "id": "ghana-health-facilities",
+      "name": "Licensed Health Facilities",
+      "vertical": "health",
       "status": "planned",
       "priority": 3,
       "coverage": "National",
@@ -205,12 +215,15 @@
         "hefra"
       ],
       "route": "/metadata/?q=health",
-      "description": "Education-contextual proximity layer for licensed health facilities; not a general health directory."
+      "description": "National licensed health-facility metadata with regulator provenance and geography.",
+      "legacy_ids": [
+        "ghana-school-health-support"
+      ]
     },
     {
-      "id": "ghana-school-emergency-response",
-      "name": "Ambulance & Emergency Response Near Schools",
-      "vertical": "support_services",
+      "id": "ghana-emergency-response-services",
+      "name": "Ambulance & Emergency Response",
+      "vertical": "emergency",
       "status": "planned",
       "priority": 3,
       "coverage": "16 regions",
@@ -220,20 +233,23 @@
       "primary_source_ids": [
         "national-ambulance-service"
       ],
-      "route": "/metadata/?q=ambulance",
-      "description": "Education-contextual emergency-response proximity layer.",
+      "route": "/metadata/?q=emergency",
+      "description": "National emergency-response service and station metadata with operational geography modelled separately where required.",
       "observations": [
         {
           "as_of": "2026-09-10",
           "metric": "stations_and_centres_reported",
           "value": 411
         }
+      ],
+      "legacy_ids": [
+        "ghana-school-emergency-response"
       ]
     },
     {
-      "id": "ghana-school-safety-services",
-      "name": "Police & Safety Services Near Schools",
-      "vertical": "support_services",
+      "id": "ghana-public-safety-services",
+      "name": "Police & Public Safety Services",
+      "vertical": "public_safety",
       "status": "planned",
       "priority": 3,
       "coverage": "National",
@@ -243,12 +259,15 @@
       "primary_source_ids": [
         "ghana-police-service"
       ],
-      "route": "/metadata/?q=police",
-      "description": "Education-contextual safety-service proximity layer; police operational hierarchies remain separate from MMDA geography."
+      "route": "/metadata/?q=safety",
+      "description": "National police and public-safety service metadata; police operational hierarchies remain separate from MMDA geography.",
+      "legacy_ids": [
+        "ghana-school-safety-services"
+      ]
     },
     {
-      "id": "ghana-education-demographics",
-      "name": "Education & Demographic Indicators",
+      "id": "ghana-national-statistics",
+      "name": "National Statistical Indicators",
       "vertical": "statistics",
       "status": "planned",
       "priority": 3,
@@ -259,8 +278,11 @@
       "primary_source_ids": [
         "ghana-statistical-service"
       ],
-      "route": "/metadata/?q=demographic",
-      "description": "Population, school-age, literacy and related indicators joined only when statistical geography and vintage are explicit."
+      "route": "/metadata/?q=statistics",
+      "description": "Population, demographic, education and other official indicators joined only when statistical geography and vintage are explicit.",
+      "legacy_ids": [
+        "ghana-education-demographics"
+      ]
     },
     {
       "id": "ghana-digital-address-reference",
@@ -279,9 +301,9 @@
       "description": "Potential GhanaPostGPS reference layer for verified entity locations, subject to authorized integration and provenance controls."
     },
     {
-      "id": "ghana-education-payment-services",
-      "name": "Regulated Education-Payment Services",
-      "vertical": "support_services",
+      "id": "ghana-regulated-financial-services",
+      "name": "Regulated Financial & Payment Services",
+      "vertical": "financial_services",
       "status": "planned",
       "priority": 4,
       "coverage": "National",
@@ -291,8 +313,27 @@
       "primary_source_ids": [
         "bank-of-ghana"
       ],
-      "route": "/metadata/?q=payment",
-      "description": "Narrowly scoped regulated financial-service metadata where it supports school fees, education payments or proximity use cases."
+      "route": "/metadata/?q=financial",
+      "description": "Regulated financial and payment-service metadata from authoritative registers for general discovery and domain-specific integrations.",
+      "legacy_ids": [
+        "ghana-education-payment-services"
+      ]
     }
+  ],
+  "catalogue_version": "1.2.0",
+  "first_production_vertical": "schools",
+  "scope_domains": [
+    "education",
+    "government_public_services",
+    "health",
+    "financial_services",
+    "businesses_companies",
+    "organizations_ngos",
+    "places_localities",
+    "transport",
+    "utilities",
+    "emergency_safety",
+    "culture_tourism",
+    "jobs_opportunities"
   ]
 }

@@ -1,6 +1,6 @@
 # Sukuu Search registry contract
 
-This directory is the machine-readable control plane for national metadata expansion. `dataset-registry.json` says what datasets exist and their implementation status; `source-registry.json` says which authority/source backs each dataset and how ingestion must be treated. JSON Schemas describe normalized records.
+This directory is the machine-readable control plane for Sukuu Search's country-wide Ghana metadata and discovery infrastructure. Schools are the first production vertical, not the platform boundary. `dataset-registry.json` says what datasets exist and their implementation status; `source-registry.json` says which authority/source backs each dataset and how ingestion must be treated. JSON Schemas describe normalized records.
 
 A source registry entry is not a licence grant. `reuse_status: review_required` means the ingestion implementation must confirm legal/technical reuse conditions before storing or redistributing upstream content.
 

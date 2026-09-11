@@ -1,0 +1,88 @@
+{
+  "observed_at": "2026-09-11T02:16:50.681Z",
+  "source_id": "gtec",
+  "records": [
+    {
+      "category": "Private College of Education",
+      "published_count": 2,
+      "url": "https://gtec.edu.gh/institutions/?category=Private%20College%20of%20Education"
+    },
+    {
+      "category": "Private Polytechnic",
+      "published_count": 1,
+      "url": "https://gtec.edu.gh/institutions/?category=Private%20Polytechnic"
+    },
+    {
+      "category": "Tutorial College",
+      "published_count": 6,
+      "url": "https://gtec.edu.gh/institutions/?category=Tutorial%20College"
+    },
+    {
+      "category": "Distance Learning Institution",
+      "published_count": 1,
+      "url": "https://gtec.edu.gh/institutions/?category=Distance%20Learning%20Institution"
+    },
+    {
+      "category": "Registered Foreign Institution",
+      "published_count": 3,
+      "url": "https://gtec.edu.gh/institutions/?category=Registered%20Foreign%20Institution"
+    },
+    {
+      "category": "College of Agriculture",
+      "published_count": 1,
+      "url": "https://gtec.edu.gh/institutions/?category=College%20of%20Agriculture"
+    },
+    {
+      "category": "Chartered Private Tertiary Institution",
+      "published_count": 24,
+      "url": "https://gtec.edu.gh/institutions/?category=Chartered%20Private%20Tertiary%20Institution"
+    },
+    {
+      "category": "Traditional University",
+      "published_count": 16,
+      "url": "https://gtec.edu.gh/institutions/?category=Traditional%20University"
+    },
+    {
+      "category": "Regionally-Owned (West Africa) Tertiary Institution",
+      "published_count": 1,
+      "url": "https://gtec.edu.gh/institutions/?category=Regionally-Owned%20%28West%20Africa%29%20Tertiary%20Institution"
+    },
+    {
+      "category": "Public Technical University",
+      "published_count": 10,
+      "url": "https://gtec.edu.gh/institutions/?category=Public%20Technical%20University"
+    },
+    {
+      "category": "Private Tertiary Institutions Offering HND/Degree Programmes",
+      "published_count": 98,
+      "url": "https://gtec.edu.gh/institutions/?category=Private%20Tertiary%20Institutions%20Offering%20HND%2FDegree%20Programmes"
+    },
+    {
+      "category": "Public College of Education",
+      "published_count": 49,
+      "url": "https://gtec.edu.gh/institutions/?category=Public%20College%20of%20Education"
+    },
+    {
+      "category": "Public Degree Awarding and Professional Institution",
+      "published_count": 5,
+      "url": "https://gtec.edu.gh/institutions/?category=Public%20Degree%20Awarding%20and%20Professional%20Institution"
+    },
+    {
+      "category": "Private Nurses/Health Training College",
+      "published_count": 16,
+      "url": "https://gtec.edu.gh/institutions/?category=Private%20Nurses%2FHealth%20Training%20College"
+    },
+    {
+      "category": "Public Nurses/Health Training College",
+      "published_count": 83,
+      "url": "https://gtec.edu.gh/institutions/?category=Public%20Nurses%2FHealth%20Training%20College"
+    }
+  ],
+  "observations": {
+    "category_total": 316,
+    "unique_institution_ids": 316,
+    "homepage_accredited_institutions": 318,
+    "cross_category_duplicate_memberships": 0,
+    "programme_rows": 3614
+  }
+}

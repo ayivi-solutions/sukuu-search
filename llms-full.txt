@@ -1,8 +1,8 @@
-# Sukuu Search — Ghana education and national metadata discovery
+# Sukuu Search — Ghana national metadata and discovery
 
-> Education-first Ghana discovery layer. The deployed school directory contains 10,795 source records representing 10,503 canonical school profiles; national metadata expansion is governed through explicit source, geography and provenance registries.
+> Country-wide Ghana metadata and discovery infrastructure for businesses, organisations, services, institutions, places and other entities. Schools are the first production vertical. The deployed school directory contains 10,795 source records representing 10,503 canonical school profiles; expansion is governed through explicit source, geography and provenance registries.
 
-## Live discovery
+## Current production vertical
 - School explorer: https://search.sukuux.com/
 - School directory: https://search.sukuux.com/schools/
 - Regions: https://search.sukuux.com/regions/
@@ -24,4 +24,14 @@
 Coordinates in the school dataset generally represent approximate towns or localities, not verified school campuses. “Ingestion ready” in the national metadata catalogue means the source authority and schema are defined; it does not mean all upstream records are already copied locally. Accreditation, licensing and deadline data must be revalidated against the named official source before consequential use.
 
 ## Scope discipline
-Sukuu Search may index non-school public-service metadata only where it materially improves education, learner, parent, school or institutional decisions. Operational jurisdictions are never silently equated with Ghana administrative boundaries. Every externally sourced factual record should carry provenance and observation time.
+Sukuu Search is a multi-sector national discovery layer. Education is the first production vertical, not a restriction on what the platform may index. Businesses, organisations, services, institutions, places, infrastructure, opportunities and other Ghana entities may be added when authoritative or appropriately governed sources are available. Operational jurisdictions are never silently equated with Ghana administrative boundaries. Every externally sourced factual record should carry provenance and observation time.
+
+## v1.2.0 live national discovery
+- Unified national search: https://search.sukuux.com/discover/
+- GTEC institutions: 316 canonical authority IDs from 316 category rows
+- GTEC programme accreditation rows: 3614
+- CTVET numbered providers: 317
+- CTVET programme/accreditation occurrence rows: 1601
+- CTVET CBT programme taxonomy: 87
+- Existing canonical school profiles in national search: 10503
+- All GTEC/CTVET records carry official-source observation provenance.
