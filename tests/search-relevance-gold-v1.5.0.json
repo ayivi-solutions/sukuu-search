@@ -1,0 +1,57 @@
+{
+  "version": "1.5.0",
+  "description": "Ghana-focused relevance benchmark for Sukuu Search National Discovery.",
+  "positive_cases": [
+    {"id":"gtec-ug-exact","category":"exact_entity","query":"University of Ghana","expected":{"name":"University of Ghana","type":"tertiary_institution"},"max_rank":1},
+    {"id":"gtec-ashesi","category":"exact_entity","query":"Ashesi University","expected":{"name":"Ashesi University","type":"tertiary_institution"},"max_rank":1},
+    {"id":"gtec-central","category":"exact_entity","query":"Central University","expected":{"name":"Central University","type":"tertiary_institution"},"max_rank":1},
+    {"id":"gtec-catholic","category":"exact_entity","query":"Catholic University","expected":{"name":"Catholic University","type":"tertiary_institution"},"max_rank":1},
+    {"id":"gtec-concord","category":"exact_entity","query":"Concord Business College","expected":{"name":"Concord Business College","type":"tertiary_institution"},"max_rank":1},
+    {"id":"gtec-mercia","category":"exact_entity","query":"Mercia Business School","expected":{"name":"Mercia Business School","type":"tertiary_institution"},"max_rank":1},
+    {"id":"gtec-mgibes","category":"exact_entity","query":"M-Gibes College of Business and Management","expected":{"name":"M-Gibes College of Business and Management","type":"tertiary_institution"},"max_rank":1},
+    {"id":"gtec-pinnacle","category":"exact_entity","query":"Pinnacle College","expected":{"name":"Pinnacle College","type":"tertiary_institution"},"max_rank":1},
+    {"id":"gtec-akrofi","category":"exact_entity","query":"Akrofi-Christaller Institute of Theology, Mission and Culture","expected":{"name":"Akrofi-Christaller Institute of Theology, Mission and Culture","type":"tertiary_institution"},"max_rank":1},
+
+    {"id":"tvet-suame","category":"exact_entity","query":"Suame Technical Institute","expected":{"name":"Suame Technical Institute","type":"tvet_provider"},"max_rank":1},
+    {"id":"tvet-wenchi","category":"exact_entity","query":"Wenchi Farm Institute","expected":{"name":"Wenchi Farm Institute","type":"tvet_provider"},"max_rank":1},
+    {"id":"tvet-akaal","category":"exact_entity","query":"Akaal Skills Development Academy","expected":{"name":"Akaal Skills Development Academy","type":"tvet_provider"},"max_rank":1},
+    {"id":"tvet-second-image","category":"exact_entity","query":"2nd Image International Skills College Kumasi Centre","expected":{"name":"2nd Image International Skills College (Kumasi Centre)","type":"tvet_provider"},"max_rank":1},
+    {"id":"tvet-methodist-women","category":"exact_entity","query":"Methodist Women's Training Centre","expected":{"name":"Methodist Women’s Training Centre","type":"tvet_provider"},"max_rank":1},
+    {"id":"tvet-gracelove","category":"exact_entity","query":"Gracelove Creations Training Institute","expected":{"name":"Gracelove Creations Training Institute","type":"tvet_provider"},"max_rank":1},
+    {"id":"tvet-asuansi","category":"exact_entity","query":"Asuansi Farm Institute","expected":{"name":"Asuansi Farm Institute","type":"tvet_provider"},"max_rank":1},
+
+    {"id":"alias-ug","category":"alias","query":"UG","expected":{"name":"University of Ghana","type":"tertiary_institution"},"max_rank":1},
+    {"id":"alias-ibmj","category":"alias","query":"IBMJ","expected":{"name":"Institute of Business Management and Journalism (IBMJ)","type":"tertiary_institution"},"max_rank":1},
+    {"id":"alias-precevid","category":"alias","query":"PRECEVID","expected":{"name":"Presbyterian Centre for Vocational Instructors Development (PRECEVID)","type":"tvet_provider"},"max_rank":1},
+    {"id":"alias-knust","category":"alias","query":"KNUST","expected":{"name":"Kwame Nkrumah University of Science and Technology","type":"tertiary_institution"},"max_rank":1},
+    {"id":"alias-ucc","category":"alias","query":"UCC","expected":{"name":"University of Cape Coast","type":"tertiary_institution"},"max_rank":1},
+    {"id":"alias-uew","category":"alias","query":"UEW","expected":{"name":"University of Education, Winneba","type":"tertiary_institution"},"max_rank":1},
+
+    {"id":"school-achimota","category":"school","query":"Achimota School","expected":{"name":"Achimota School","type":"school"},"max_rank":1},
+    {"id":"school-prempeh","category":"school","query":"Prempeh College","expected":{"name":"Prempeh College","type":"school"},"max_rank":1},
+    {"id":"school-adisadel","category":"school","query":"Adisadel College","expected":{"name":"Adisadel College","type":"school"},"max_rank":1},
+    {"id":"school-mfantsipim","category":"school","query":"Mfantsipim School","expected":{"name":"Mfantsipim School","type":"school"},"max_rank":1},
+    {"id":"school-opoku-ware","category":"school","query":"Opoku Ware School","expected":{"name":"Opoku Ware School","type":"school"},"max_rank":1},
+
+    {"id":"programme-computer-science","category":"programme","query":"computer science","filters":{"type":"programme"},"expected":{"type":"programme","name_tokens":["computer","science"]},"max_rank":1},
+    {"id":"programme-nursing","category":"programme","query":"nursing","filters":{"type":"programme"},"expected":{"type":"programme","name_tokens":["nursing"]},"max_rank":1},
+    {"id":"programme-accounting","category":"programme","query":"accounting","filters":{"type":"programme"},"expected":{"type":"programme","name_tokens":["accounting"]},"max_rank":1},
+    {"id":"programme-business-admin","category":"programme","query":"business administration","filters":{"type":"programme"},"expected":{"type":"programme","name_tokens":["business","administration"]},"max_rank":1},
+    {"id":"programme-electrical","category":"programme","query":"electrical engineering","filters":{"type":"programme"},"expected":{"type":"programme","name_tokens":["electrical","engineering"]},"max_rank":1},
+
+    {"id":"locality-kumasi-tvet","category":"locality","query":"Kumasi","filters":{"type":"tvet_provider"},"expected":{"type":"tvet_provider","locality_contains":"Kumasi"},"max_rank":3},
+    {"id":"locality-ho-school","category":"locality","query":"Ho","filters":{"type":"school"},"expected":{"type":"school","locality_contains":"Ho"},"max_rank":5}
+  ],
+  "negative_cases": [
+    {"id":"negative-gibberish","query":"zzqv nonexistent ghana entity 918273"},
+    {"id":"negative-random","query":"qxjvplm 556677 unknown programme"}
+  ],
+  "thresholds": {
+    "exact_entity_success_at_1": 1.0,
+    "overall_success_at_3": 0.95,
+    "overall_success_at_5": 0.98,
+    "mrr": 0.90,
+    "positive_zero_result_rate": 0.0,
+    "negative_zero_result_rate": 1.0
+  }
+}
