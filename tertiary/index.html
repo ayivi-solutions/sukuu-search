@@ -12,6 +12,8 @@
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="/assets/national.css">
   <link rel="stylesheet" href="/assets/national-patch-v1.3.1.css">
+  <link rel="stylesheet" href="/assets/national-patch-v1.4.0.css">
+  <script defer src="/assets/data-layer-v1.4.0.js"></script>
   <script defer src="/assets/national-browser-v1.3.1.js"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Tertiary Institutions in Ghana","url":"https://search.sukuux.com/tertiary/"}</script>
 </head>
@@ -23,6 +25,7 @@
   <section class="hero reveal"><div class="eyebrow">Tertiary education</div><h1>Explore Ghana’s tertiary institutions.</h1><p>Find tertiary institutions by name, category, status and location, then connect through institution-direct verified contacts where available. Official central support is clearly separated when it is only a fallback.</p><div class="hero-actions"><a class="button primary" href="#search">Browse institutions</a><a class="button secondary" href="/programmes/">Browse programmes</a></div></section>
   <div class="stats reveal"><div class="stat"><strong data-total-count>—</strong><span>institutions</span></div><div class="stat"><strong data-active-count>—</strong><span>active records</span></div><div class="stat"><strong data-category-count>—</strong><span>institution categories</span></div><div class="stat"><strong data-contact-count>—</strong><span>with direct verified contacts</span></div></div>
   <div class="coverage-note" id="contactCoverageNote" aria-live="polite">Contact coverage is being classified…</div>
+  <div class="v14-release-note">Accreditation status is date-driven from the recorded accreditation end date where one is available: once that date has passed, Sukuu Search marks the institution as expired.</div>
 
   <section class="search-shell section" id="search">
     <div class="searchbar"><span class="search-icon">⌕</span><input id="q" type="search" autocomplete="off" placeholder="Institution, category or location…" aria-label="Search tertiary institutions"><button id="clearSearch" type="button" aria-label="Clear search">×</button><button id="filterOpen" class="filter-trigger" type="button">Filters</button></div>
