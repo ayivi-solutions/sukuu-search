@@ -1,0 +1,41 @@
+/* Sukuu Search v1.4.0 — verified contact enrichment + date-driven accreditation status */
+
+.v14-release-note{
+  margin:12px 0 0;
+  padding:10px 12px;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:var(--card);
+  color:var(--muted);
+  font-size:.72rem;
+  box-shadow:var(--shadow-sm)
+}
+.date-derived-status{
+  margin-top:10px!important;
+  padding:8px 10px;
+  border-radius:10px;
+  background:var(--soft);
+  color:var(--muted)!important;
+  font-size:.72rem!important
+}
+.date-derived-status strong{color:var(--ink)}
+.date-derived-status.expired{
+  background:#fde6e9;
+  color:#7f2934!important
+}
+.date-derived-status.expired strong{color:#9f2635}
+:root[data-theme="dark"] .date-derived-status.expired{
+  background:#452027;
+  color:#ffc0c8!important
+}
+:root[data-theme="dark"] .date-derived-status.expired strong{color:#ff99a6}
+.contact-source .release-tag{
+  display:inline-flex;
+  margin-left:6px;
+  padding:2px 6px;
+  border-radius:999px;
+  background:var(--soft);
+  color:var(--muted);
+  font-size:.62rem;
+  font-weight:800
+}
