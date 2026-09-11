@@ -1,0 +1,30 @@
+{
+  "target": "https://search.sukuux.com",
+  "build_date": "2026-09-11",
+  "release": "1.4.0-verified-contact-enrichment",
+  "baseline_commit": "8a1ad3ba8aa8ae5d2e9429f6d681b5db1af2b147",
+  "directory_records": 10795,
+  "school_pages": 10503,
+  "region_pages": 16,
+  "district_pages": 261,
+  "protected_estate_files": 10781,
+  "protected_estate_sha256": "2b574001a7f2fccb61c5bf2db3368c787f0eae22ba64bba9aca2f444d42e43c1",
+  "scope_model": "country-wide-multi-sector",
+  "gtec_institutions": 316,
+  "ctvet_providers": 317,
+  "national_search_records": 16351,
+  "contacts": {
+    "base_source_records": 164,
+    "v1_4_supplement_records": 10,
+    "runtime_combined_records": 174,
+    "gtec_entity_direct": 48,
+    "gtec_central_admissions_support": 132,
+    "ctvet_entity_direct": 49
+  },
+  "runtime": {
+    "contact_layer": "/data/contacts/contact-enrichment-v1.4.0.json",
+    "data_layer_script": "/assets/data-layer-v1.4.0.js",
+    "date_driven_gtec_status": true,
+    "regulatory_source_snapshots_modified": false
+  }
+}
