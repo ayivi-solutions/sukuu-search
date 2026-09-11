@@ -1,10 +1,12 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "policy_name": "Sukuu Search operational contact enrichment",
-  "effective_release": "1.3.1",
+  "effective_release": "1.4.0",
   "principles": [
-    "Regulator records establish accreditation or licensing state; they are evidence, not the primary discovery destination.",
+    "Regulator records establish accreditation or licensing evidence; Sukuu Search does not independently adjudicate regulatory standing.",
+    "Where a recorded tertiary accreditation_end_date exists, Sukuu Search derives the displayed status from that date: once the date has passed, the record is displayed as expired.",
     "Operational contacts are enriched from institution-owned official channels or appropriate official public service directories.",
+    "Contact enrichment may be released through append-only versioned supplements so the regulatory source snapshots remain unchanged.",
     "Contact assignment uses exact normalized aliases only; fuzzy matching is prohibited.",
     "Every matched contact is classified by contact_scope. entity_direct is institution/provider-specific; central_admissions_support is fallback support and must never be counted or labelled as institution-direct.",
     "Contactability filters for phone, email, website, admissions and directions operate on institution-direct contacts unless a filter explicitly requests central support.",
@@ -22,6 +24,14 @@
   "contact_scope_classes": {
     "entity_direct": "Verified contact belongs to the institution/provider itself.",
     "central_admissions_support": "Official fallback admissions/support contact associated with a category or central service. Not an institution-direct contact."
+  },
+  "versioning": {
+    "base_contact_file": "/data/contacts/contact-enrichment.json",
+    "supplements": [
+      "/data/contacts/contact-enrichment-v1.4.0.json"
+    ],
+    "merge_order": "base then supplements in release order",
+    "raw_regulatory_snapshots_modified_by_contact_enrichment": false
   },
   "user_actions": [
     "call",
