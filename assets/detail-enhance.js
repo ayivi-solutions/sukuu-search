@@ -5,13 +5,16 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const norm=s=>String(s??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');
 const path=location.pathname;
 const page=path.startsWith('/tertiary/')?'tertiary':path.startsWith('/tvet/')?'tvet':path.startsWith('/programme/')?'programmes':'discover';
+const SUPPLEMENT='/data/contacts/contact-enrichment-v1.4.0.json';
 
 function ensurePatchCss(){
-  if(document.querySelector('link[href="/assets/national-patch-v1.3.1.css"]'))return;
-  const link=document.createElement('link');
-  link.rel='stylesheet';
-  link.href='/assets/national-patch-v1.3.1.css';
-  document.head.append(link);
+  ['/assets/national-patch-v1.3.1.css','/assets/national-patch-v1.4.0.css'].forEach(href=>{
+    if(document.querySelector(`link[href="${href}"]`))return;
+    const link=document.createElement('link');
+    link.rel='stylesheet';
+    link.href=href;
+    document.head.append(link);
+  });
 }
 function header(){
   const old=$('header'); if(!old)return;
@@ -27,12 +30,20 @@ function header(){
   if(!$('.mobile-nav'))document.body.insertAdjacentHTML('beforeend',`<nav class="mobile-nav" aria-label="Mobile navigation"><a data-nav="discover" href="/discover/"><span>⌕</span><span>Discover</span></a><a data-nav="schools" href="/"><span>🏫</span><span>Schools</span></a><a data-nav="tertiary" href="/tertiary/"><span>🎓</span><span>Tertiary</span></a><a data-nav="tvet" href="/tvet/"><span>🛠️</span><span>TVET</span></a><a data-nav="programmes" href="/programmes/"><span>📘</span><span>Programmes</span></a></nav>`);
   $$('[data-nav]',$('.mobile-nav')).forEach(a=>{if(a.dataset.nav===page)a.setAttribute('aria-current','page')});
 }
-async function contacts(){
+async function contactRecords(url){
   try{
-    const r=await fetch('/data/contacts/contact-enrichment.json',{cache:'force-cache'});
+    const r=await fetch(url,{cache:url===SUPPLEMENT?'no-cache':'force-cache'});
     if(!r.ok)return[];
-    return (await r.json()).records||[];
+    const j=await r.json();
+    return j.records||[];
   }catch{return[]}
+}
+async function contacts(){
+  const [base,supplement]=await Promise.all([
+    contactRecords('/data/contacts/contact-enrichment.json'),
+    contactRecords(SUPPLEMENT)
+  ]);
+  return [...base,...supplement];
 }
 function index(records){
   const maps={tertiary_institution:new Map(),tvet_provider:new Map(),byCategory:new Map()};
@@ -76,7 +87,8 @@ function panel(c,title='Contact & admissions'){
   const src=c.sources?.[0],scope=scopeOf(c),support=scope==='support';
   const kicker=support?'Official central admissions support':'Connect directly';
   const verified=support?'✓ Official support source':'✓ Institution-direct source';
-  return `<section class="contact-panel ${support?'support-scope':''}"><div class="contact-head"><div><span class="contact-kicker">${kicker}</span><h2>${esc(title)}</h2></div><span class="contact-verified">${verified}</span></div>${support?'<p class="scope-warning"><strong>Not institution-direct:</strong> this is an official central admissions/support channel associated with the institution category. It is shown as fallback help and is not counted as the institution’s own phone, email or website.</p>':''}<div class="contact-action-grid">${actions(c)}</div>${c.emails?.length>1?`<div class="contact-more"><strong>Other verified emails</strong>${c.emails.slice(1).map(e=>`<a href="mailto:${esc(e)}">${esc(e)}</a>`).join('')}</div>`:''}${c.phones?.length>1?`<div class="contact-more"><strong>Other verified phones</strong>${c.phones.slice(1).map(p=>`<a href="tel:${esc(p.tel||p.display||p)}">${esc(p.display||p.tel||p)}</a>`).join('')}</div>`:''}${src?`<details class="contact-source"><summary>Contact source & verification</summary><p>${esc(src.name||'Official public source')} · observed ${esc(src.observed_at||'')}</p><a target="_blank" rel="noreferrer" href="${esc(src.url)}">View contact source</a>${c.notes?`<p>${esc(c.notes)}</p>`:''}</details>`:''}</section>`;
+  const releaseTag=c.entity_ids?.length?'<span class="release-tag">v1.4 verified</span>':'';
+  return `<section class="contact-panel ${support?'support-scope':''}"><div class="contact-head"><div><span class="contact-kicker">${kicker}</span><h2>${esc(title)}</h2></div><span class="contact-verified">${verified}</span></div>${support?'<p class="scope-warning"><strong>Not institution-direct:</strong> this is an official central admissions/support channel associated with the institution category. It is shown as fallback help and is not counted as the institution’s own phone, email or website.</p>':''}<div class="contact-action-grid">${actions(c)}</div>${c.emails?.length>1?`<div class="contact-more"><strong>Other verified emails</strong>${c.emails.slice(1).map(e=>`<a href="mailto:${esc(e)}">${esc(e)}</a>`).join('')}</div>`:''}${c.phones?.length>1?`<div class="contact-more"><strong>Other verified phones</strong>${c.phones.slice(1).map(p=>`<a href="tel:${esc(p.tel||p.display||p)}">${esc(p.display||p.tel||p)}</a>`).join('')}</div>`:''}${src?`<details class="contact-source"><summary>Contact source & verification ${releaseTag}</summary><p>${esc(src.name||'Official public source')} · observed ${esc(src.observed_at||'')}</p><a target="_blank" rel="noreferrer" href="${esc(src.url)}">View contact source</a>${c.notes?`<p>${esc(c.notes)}</p>`:''}</details>`:''}</section>`;
 }
 function collapseProvenance(){
   const candidates=$$('article.card, .card'),move=[];
@@ -115,6 +127,31 @@ function cleanExplanatoryNotes(){
     }
   });
 }
+function applyDateDrivenAccreditationStatus(){
+  if(page!=='tertiary')return;
+  const periodCard=$$('article.card,.card').find(card=>($('h2,h3',card)?.textContent||'').trim().toLowerCase()==='accreditation period');
+  const text=$('p',periodCard)?.textContent||'';
+  const match=text.match(/(\d{4}-\d{2}-\d{2})\s*(?:→|->|–|-)\s*(\d{4}-\d{2}-\d{2})/);
+  if(!match)return;
+  const end=match[2],today=new Date().toISOString().slice(0,10),expired=end<today;
+  $$('.stat').forEach(stat=>{
+    const label=$('span',stat)?.textContent?.trim().toLowerCase()||'';
+    if(label==='institution status'){
+      const strong=$('strong',stat);
+      if(strong)strong.textContent=expired?'Expired':'Active';
+    }
+  });
+  let note=$('.date-derived-status',periodCard);
+  if(!note){
+    note=document.createElement('p');
+    note.className='date-derived-status';
+    periodCard?.append(note);
+  }
+  if(note){
+    note.classList.toggle('expired',expired);
+    note.innerHTML=expired?`<strong>Expired</strong> · accreditation end date passed on ${esc(end)}.`:`<strong>Active</strong> · accreditation valid through ${esc(end)}.`;
+  }
+}
 function addBreadcrumbs(){
   if($('.breadcrumbs'))return;
   const main=$('main'),hero=$('.hero');
@@ -135,6 +172,7 @@ async function run(){
   header();
   addBreadcrumbs();
   cleanExplanatoryNotes();
+  applyDateDrivenAccreditationStatus();
   const maps=index(await contacts());
 
   if(page==='tertiary'||page==='tvet'){
